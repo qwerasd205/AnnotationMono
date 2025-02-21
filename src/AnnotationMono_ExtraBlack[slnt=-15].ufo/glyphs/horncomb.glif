@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horncomb" format="2">
+  <unicode hex="031B"/>
+  <anchor x="-29.594623166091708" y="524" name="_horn"/>
+  <outline>
+    <contour>
+      <point x="-29.594623166091708" y="524" type="line"/>
+      <point x="-15.594623166091708" y="524"/>
+      <point x="48.869478449046056" y="522"/>
+      <point x="53.869478449046056" y="522" type="curve" smooth="yes"/>
+      <point x="63.869478449046056" y="522"/>
+      <point x="72.8887163355129" y="537"/>
+      <point x="80.97975099170421" y="556" type="curve" smooth="yes"/>
+      <point x="87.26693807060218" y="572"/>
+      <point x="91.37721061326036" y="606"/>
+      <point x="136.78875334514046" y="615" type="curve" smooth="yes"/>
+      <point x="179.20029607702057" y="624"/>
+      <point x="184.14258241762005" y="579"/>
+      <point x="169.42461472037513" y="539" type="curve" smooth="yes"/>
+      <point x="142.93612044262767" y="470"/>
+      <point x="90.16559386212509" y="441"/>
+      <point x="54.16559386212511" y="441" type="curve" smooth="yes"/>
+      <point x="30.165593862125107" y="441"/>
+      <point x="-40.030558560581525" y="444"/>
+      <point x="-51.030558560581525" y="444" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

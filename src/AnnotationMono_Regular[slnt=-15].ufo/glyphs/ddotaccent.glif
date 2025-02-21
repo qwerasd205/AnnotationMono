@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddotaccent" format="2">
+  <advance width="500"/>
+  <unicode hex="1E0B"/>
+  <outline>
+    <component base="d"/>
+    <component base="dotaccentcomb" xOffset="403.73066958946424" yOffset="-210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>ExtraBlack</key>
+        <string>weight=1000</string>
+        <key>Thin</key>
+        <string>weight=100</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>ExtraBlack</key>
+        <string>weight=1000</string>
+        <key>Thin</key>
+        <string>weight=100</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

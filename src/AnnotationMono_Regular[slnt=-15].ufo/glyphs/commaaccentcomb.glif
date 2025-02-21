@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <unicode hex="0326"/>
+  <anchor x="-297.0" y="0" name="_bottom"/>
+  <anchor x="-347.40776917384187" y="-162" name="bottom"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.black-foundry.variable-components</key>
+      <array>
+        <dict>
+          <key>base</key>
+          <string>quotesingle</string>
+          <key>location</key>
+          <dict/>
+          <key>transformation</key>
+          <dict>
+            <key>rotation</key>
+            <integer>-29</integer>
+            <key>scaleX</key>
+            <real>1.0</real>
+            <key>scaleY</key>
+            <real>0.65</real>
+            <key>skewX</key>
+            <real>0.0</real>
+            <key>skewY</key>
+            <real>0.0</real>
+            <key>tCenterX</key>
+            <integer>250</integer>
+            <key>tCenterY</key>
+            <integer>575</integer>
+            <key>translateX</key>
+            <real>-668.8079912316073</real>
+            <key>translateY</key>
+            <real>-637.7777777777778</real>
+          </dict>
+        </dict>
+      </array>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>ExtraBlack</key>
+        <string>weight=1000</string>
+        <key>Thin</key>
+        <string>weight=100</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>ExtraBlack</key>
+        <string>weight=1000</string>
+        <key>Regular</key>
+        <string>default</string>
+        <key>Thin</key>
+        <string>weight=100</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

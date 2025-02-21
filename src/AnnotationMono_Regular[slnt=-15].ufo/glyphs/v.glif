@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v" format="2">
+  <advance width="500"/>
+  <unicode hex="0076"/>
+  <anchor x="307.1796769724491" y="400" name="top"/>
+  <anchor x="197.5884572681199" y="-9" name="cedilla"/>
+  <anchor x="197.5884572681199" y="-9" name="ogonek"/>
+  <anchor x="200.0" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="127.32327051189806" y="408" type="curve" smooth="yes"/>
+      <point x="147.66301647405368" y="413"/>
+      <point x="154.05532131946694" y="407"/>
+      <point x="164.5527439313955" y="379" type="curve" smooth="yes"/>
+      <point x="186.54758915525264" y="323"/>
+      <point x="219.31673451765056" y="143"/>
+      <point x="223.11542731880104" y="90" type="curve"/>
+      <point x="273.0154643284286" y="168"/>
+      <point x="355.41807872612765" y="274"/>
+      <point x="438.5527439313955" y="379" type="curve" smooth="yes"/>
+      <point x="461.32327051189804" y="408"/>
+      <point x="482.5912197043292" y="409"/>
+      <point x="489.05532131946694" y="407" type="curve" smooth="yes"/>
+      <point x="511.64377858758684" y="398"/>
+      <point x="505.480947161671" y="375"/>
+      <point x="486.78221735089295" y="350" type="curve" smooth="yes"/>
+      <point x="378.73343202567355" y="208"/>
+      <point x="352.4270070603087" y="177"/>
+      <point x="258.52181527453826" y="43" type="curve" smooth="yes"/>
+      <point x="239.01923788646684" y="15"/>
+      <point x="217.5884572681199" y="-9"/>
+      <point x="197.5884572681199" y="-9" type="curve" smooth="yes"/>
+      <point x="178.5884572681199" y="-9"/>
+      <point x="171.21539030917347" y="12"/>
+      <point x="165.52181527453828" y="43" type="curve" smooth="yes"/>
+      <point x="136.44624494677555" y="192"/>
+      <point x="133.30780618346944" y="240"/>
+      <point x="100.38991250547969" y="356" type="curve" smooth="yes"/>
+      <point x="95.48094716167101" y="375"/>
+      <point x="107.25147374217357" y="404"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

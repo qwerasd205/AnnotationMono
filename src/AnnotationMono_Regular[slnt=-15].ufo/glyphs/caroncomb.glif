@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb" format="2">
+  <unicode hex="030C"/>
+  <anchor x="-139.23048454132638" y="600" name="_top"/>
+  <anchor x="-76.7983227048748" y="833" name="top"/>
+  <outline>
+    <component base="caron" xOffset="-441.051177665153" yOffset="220"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

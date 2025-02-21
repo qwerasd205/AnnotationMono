@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="500"/>
+  <unicode hex="002E"/>
+  <anchor x="212.05771365940052" y="45" name="center"/>
+  <outline>
+    <contour>
+      <point x="272.0577136594005" y="45" type="curve" smooth="yes"/>
+      <point x="258.39230484541326" y="-6"/>
+      <point x="235.98076211353316" y="-15"/>
+      <point x="195.98076211353316" y="-15" type="curve" smooth="yes"/>
+      <point x="154.98076211353316" y="-15"/>
+      <point x="139.46410161513776" y="-2"/>
+      <point x="152.05771365940052" y="45" type="curve" smooth="yes"/>
+      <point x="164.11542731880104" y="90"/>
+      <point x="187.13466520526788" y="105"/>
+      <point x="228.13466520526788" y="105" type="curve" smooth="yes"/>
+      <point x="267.1346652052679" y="105"/>
+      <point x="284.38337651123214" y="91"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

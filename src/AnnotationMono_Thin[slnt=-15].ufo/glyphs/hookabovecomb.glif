@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="-122" y="600" name="_top"/>
+  <anchor x="-61" y="813" name="top"/>
+  <outline>
+    <contour>
+      <point x="-90" y="687" type="curve" smooth="yes"/>
+      <point x="-69" y="690"/>
+      <point x="-34" y="709"/>
+      <point x="-27" y="738" type="curve" smooth="yes"/>
+      <point x="-17" y="776"/>
+      <point x="-31" y="797"/>
+      <point x="-60" y="800" type="curve" smooth="yes"/>
+      <point x="-83" y="802"/>
+      <point x="-112" y="798"/>
+      <point x="-130" y="780" type="curve" smooth="yes"/>
+      <point x="-139" y="771"/>
+      <point x="-147" y="768"/>
+      <point x="-146" y="781" type="curve" smooth="yes"/>
+      <point x="-144" y="804"/>
+      <point x="-90" y="819"/>
+      <point x="-56" y="815" type="curve" smooth="yes"/>
+      <point x="-11" y="810"/>
+      <point x="-1" y="775"/>
+      <point x="-12" y="736" type="curve" smooth="yes"/>
+      <point x="-23" y="694"/>
+      <point x="-64" y="675"/>
+      <point x="-103" y="671" type="curve"/>
+      <point x="-106" y="659"/>
+      <point x="-96" y="643"/>
+      <point x="-110" y="636" type="curve" smooth="yes"/>
+      <point x="-123" y="630"/>
+      <point x="-122" y="653"/>
+      <point x="-122" y="668" type="curve" smooth="yes"/>
+      <point x="-122" y="681"/>
+      <point x="-111" y="683"/>
+    </contour>
+  </outline>
+</glyph>

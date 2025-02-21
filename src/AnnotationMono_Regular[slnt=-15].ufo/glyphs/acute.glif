@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="500"/>
+  <unicode hex="00B4"/>
+  <anchor x="360.7695154586736" y="600" name="top"/>
+  <outline>
+    <contour>
+      <point x="274.46686405134705" y="416" type="curve" smooth="yes"/>
+      <point x="257.8066100135027" y="421"/>
+      <point x="257.0937970924006" y="437"/>
+      <point x="270.52457771074756" y="461" type="curve" smooth="yes"/>
+      <point x="287.83100267611235" y="492"/>
+      <point x="304.20922441120166" y="527"/>
+      <point x="338.14258241762" y="579" type="curve" smooth="yes"/>
+      <point x="353.30541384353586" y="602"/>
+      <point x="377.44900738298486" y="610"/>
+      <point x="396.2336170738114" y="598" type="curve" smooth="yes"/>
+      <point x="411.8220743419313" y="589"/>
+      <point x="404.24770018413534" y="557"/>
+      <point x="395.76436068253076" y="544" type="curve" smooth="yes"/>
+      <point x="352.6874091366634" y="484"/>
+      <point x="346.2758664047833" y="475"/>
+      <point x="321.43354305455625" y="442" type="curve" smooth="yes"/>
+      <point x="302.46686405134705" y="416"/>
+      <point x="286.5912197043292" y="409"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

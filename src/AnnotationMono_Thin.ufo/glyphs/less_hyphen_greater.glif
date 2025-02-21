@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen_greater" format="2">
+  <advance width="1500"/>
+  <outline>
+    <contour>
+      <point x="52" y="300" type="curve" smooth="yes"/>
+      <point x="52" y="310"/>
+      <point x="65" y="314"/>
+      <point x="94" y="314" type="curve" smooth="yes"/>
+      <point x="149" y="314"/>
+      <point x="734" y="312"/>
+      <point x="746" y="312" type="curve" smooth="yes"/>
+      <point x="787" y="312"/>
+      <point x="1386" y="313"/>
+      <point x="1421" y="313" type="curve" smooth="yes"/>
+      <point x="1444" y="313"/>
+      <point x="1454" y="314"/>
+      <point x="1454" y="301" type="curve" smooth="yes"/>
+      <point x="1454" y="287"/>
+      <point x="1461" y="290"/>
+      <point x="1426" y="289" type="curve" smooth="yes"/>
+      <point x="1379" y="287"/>
+      <point x="775" y="288"/>
+      <point x="738" y="288" type="curve" smooth="yes"/>
+      <point x="705" y="288"/>
+      <point x="115" y="289"/>
+      <point x="90" y="289" type="curve" smooth="yes"/>
+      <point x="62" y="289"/>
+      <point x="52" y="290"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.black-foundry.variable-components</key>
+      <array>
+        <dict>
+          <key>base</key>
+          <string>less</string>
+          <key>location</key>
+          <dict/>
+        </dict>
+        <dict>
+          <key>base</key>
+          <string>less</string>
+          <key>location</key>
+          <dict/>
+          <key>transformation</key>
+          <dict>
+            <key>rotation</key>
+            <integer>180</integer>
+            <key>scaleX</key>
+            <integer>1</integer>
+            <key>scaleY</key>
+            <integer>1</integer>
+            <key>skewX</key>
+            <integer>0</integer>
+            <key>skewY</key>
+            <integer>0</integer>
+            <key>tCenterX</key>
+            <integer>250</integer>
+            <key>tCenterY</key>
+            <integer>300</integer>
+            <key>translateX</key>
+            <integer>1000</integer>
+            <key>translateY</key>
+            <integer>0</integer>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

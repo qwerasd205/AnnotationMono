@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="500.0"/>
+  <unicode hex="002F"/>
+  <outline>
+    <contour>
+      <point x="557.702873465092" y="652" type="curve" smooth="yes"/>
+      <point x="569.0233815407807" y="642"/>
+      <point x="558.6836355786252" y="637"/>
+      <point x="528.7695154586736" y="600" type="curve" smooth="yes"/>
+      <point x="443.9027994458369" y="496"/>
+      <point x="438.6874091366634" y="484"/>
+      <point x="289.1168085369057" y="299" type="curve" smooth="yes"/>
+      <point x="142.88595389930362" y="119"/>
+      <point x="153.0295474387526" y="127"/>
+      <point x="46.12435565298214" y="-7" type="curve" smooth="yes"/>
+      <point x="19.014083110323966" y="-41"/>
+      <point x="13.262794416288244" y="-55"/>
+      <point x="3.1384387633061124" y="-48" type="curve" smooth="yes"/>
+      <point x="-13.91412011995154" y="-37"/>
+      <point x="21.196152422706632" y="-3"/>
+      <point x="44.69872981077807" y="25" type="curve" smooth="yes"/>
+      <point x="49.03847577293368" y="30"/>
+      <point x="123.76159824632146" y="126"/>
+      <point x="274.60014803851027" y="312" type="curve" smooth="yes"/>
+      <point x="455.0848687582195" y="534"/>
+      <point x="470.3194969538598" y="561"/>
+      <point x="524.7361944618829" y="626" type="curve" smooth="yes"/>
+      <point x="531.8797880013318" y="634"/>
+      <point x="550.5785178121098" y="659"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

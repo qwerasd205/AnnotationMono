@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen_less" format="2">
+  <advance width="1500"/>
+  <outline>
+    <contour>
+      <point x="52" y="300" type="curve" smooth="yes"/>
+      <point x="52" y="346"/>
+      <point x="65" y="360.5"/>
+      <point x="94" y="360.5" type="curve" smooth="yes"/>
+      <point x="146" y="360.5"/>
+      <point x="634" y="359"/>
+      <point x="646" y="359" type="curve" smooth="yes"/>
+      <point x="679" y="359"/>
+      <point x="1029" y="362"/>
+      <point x="1061" y="360" type="curve" smooth="yes"/>
+      <point x="1084" y="359"/>
+      <point x="1098" y="348"/>
+      <point x="1098" y="299" type="curve" smooth="yes"/>
+      <point x="1098" y="248"/>
+      <point x="1081" y="239"/>
+      <point x="1046" y="238" type="curve" smooth="yes"/>
+      <point x="999" y="237"/>
+      <point x="675" y="238"/>
+      <point x="638" y="237" type="curve" smooth="yes"/>
+      <point x="607" y="237"/>
+      <point x="108" y="235.5"/>
+      <point x="90" y="238.5" type="curve" smooth="yes"/>
+      <point x="62" y="242.5"/>
+      <point x="52" y="254"/>
+    </contour>
+    <component base="less"/>
+    <component base="less" xOffset="1000"/>
+  </outline>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primemod" format="2">
+  <advance width="500"/>
+  <unicode hex="02B9"/>
+  <anchor x="366.12849930729607" y="620" name="top"/>
+  <outline>
+    <contour>
+      <point x="278.38098417129856" y="453" type="curve" smooth="yes"/>
+      <point x="268.52457771074756" y="461"/>
+      <point x="273.15151075180114" y="482"/>
+      <point x="285.24254540799245" y="501" type="curve" smooth="yes"/>
+      <point x="298.94127521877056" y="526"/>
+      <point x="330.2669380706022" y="572"/>
+      <point x="342.89387111165576" y="593" type="curve" smooth="yes"/>
+      <point x="361.39644849972717" y="621"/>
+      <point x="374.12849930729607" y="620"/>
+      <point x="389.12849930729607" y="620" type="curve" smooth="yes"/>
+      <point x="428.12849930729607" y="620"/>
+      <point x="418.7695154586736" y="600"/>
+      <point x="388.97975099170424" y="556" type="curve" smooth="yes"/>
+      <point x="358.65408813987256" y="510"/>
+      <point x="333.6156123669389" y="480"/>
+      <point x="323.93612044262767" y="470" type="curve" smooth="yes"/>
+      <point x="307.11303497886746" y="452"/>
+      <point x="286.77328901671183" y="447"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

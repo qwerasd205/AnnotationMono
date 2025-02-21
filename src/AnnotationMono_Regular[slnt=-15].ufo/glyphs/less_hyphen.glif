@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="82.38475772933681" y="300" type="curve" smooth="yes"/>
+      <point x="86.67194480823477" y="316"/>
+      <point x="104.22708107956386" y="333"/>
+      <point x="133.22708107956385" y="333" type="curve" smooth="yes"/>
+      <point x="185.22708107956385" y="333"/>
+      <point x="572.6911826947016" y="331"/>
+      <point x="584.6911826947016" y="331" type="curve" smooth="yes"/>
+      <point x="617.6911826947016" y="331"/>
+      <point x="918.495030271995" y="334"/>
+      <point x="949.9591318871328" y="332" type="curve" smooth="yes"/>
+      <point x="972.6911826947016" y="331"/>
+      <point x="983.207843193097" y="318"/>
+      <point x="978.1168085369056" y="299" type="curve" smooth="yes"/>
+      <point x="972.4898754958521" y="278"/>
+      <point x="952.2744851866786" y="266"/>
+      <point x="917.0065359942475" y="265" type="curve" smooth="yes"/>
+      <point x="869.7385868018164" y="264"/>
+      <point x="596.0065359942475" y="265"/>
+      <point x="558.7385868018164" y="264" type="curve" smooth="yes"/>
+      <point x="527.7385868018164" y="264"/>
+      <point x="128.47063760938528" y="263"/>
+      <point x="111.27448518667863" y="266" type="curve" smooth="yes"/>
+      <point x="84.34628195640313" y="270"/>
+      <point x="78.09757065043884" y="284"/>
+    </contour>
+    <component base="less"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>AnnotationMono_ExtraBlack/public.default</key>
+        <string>weight=1000</string>
+        <key>AnnotationMono_Regular/public.default</key>
+        <string>default</string>
+        <key>AnnotationMono_Thin/public.default</key>
+        <string>weight=100</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>ExtraBlack</key>
+        <string>weight=1000</string>
+        <key>Regular</key>
+        <string>default</string>
+        <key>Thin</key>
+        <string>weight=100</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

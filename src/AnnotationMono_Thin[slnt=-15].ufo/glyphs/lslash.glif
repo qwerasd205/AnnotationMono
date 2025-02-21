@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="500"/>
+  <unicode hex="0142"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.black-foundry.variable-components</key>
+      <array>
+        <dict>
+          <key>base</key>
+          <string>l</string>
+          <key>location</key>
+          <dict/>
+        </dict>
+        <dict>
+          <key>base</key>
+          <string>hyphen</string>
+          <key>location</key>
+          <dict>
+            <key>width</key>
+            <integer>250</integer>
+          </dict>
+          <key>transformation</key>
+          <dict>
+            <key>rotation</key>
+            <real>10.000000000000004</real>
+            <key>scaleX</key>
+            <integer>1</integer>
+            <key>scaleY</key>
+            <real>0.7499999999999999</real>
+            <key>skewX</key>
+            <integer>0</integer>
+            <key>skewY</key>
+            <integer>0</integer>
+            <key>tCenterX</key>
+            <integer>250</integer>
+            <key>tCenterY</key>
+            <integer>300</integer>
+            <key>translateX</key>
+            <real>-40.0</real>
+            <key>translateY</key>
+            <real>-36.11111111111111</real>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

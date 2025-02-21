@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftanglebracket.math" format="2">
+  <advance width="500"/>
+  <unicode hex="27E8"/>
+  <outline>
+    <contour>
+      <point x="160" y="300" type="curve"/>
+      <point x="189" y="264"/>
+      <point x="202" y="248"/>
+      <point x="212" y="231" type="curve" smooth="yes"/>
+      <point x="238" y="194"/>
+      <point x="267" y="152"/>
+      <point x="275" y="138" type="curve" smooth="yes"/>
+      <point x="293" y="108"/>
+      <point x="365" y="4"/>
+      <point x="391" y="-36" type="curve" smooth="yes"/>
+      <point x="408" y="-65"/>
+      <point x="409" y="-86"/>
+      <point x="389" y="-98" type="curve" smooth="yes"/>
+      <point x="376" y="-107"/>
+      <point x="355" y="-103"/>
+      <point x="342" y="-84" type="curve" smooth="yes"/>
+      <point x="324" y="-60"/>
+      <point x="241" y="67"/>
+      <point x="224" y="96" type="curve" smooth="yes"/>
+      <point x="219" y="104"/>
+      <point x="137" y="219"/>
+      <point x="109" y="261" type="curve" smooth="yes"/>
+      <point x="97" y="280"/>
+      <point x="89" y="288"/>
+      <point x="89" y="300" type="curve" smooth="yes"/>
+      <point x="89" y="312"/>
+      <point x="98" y="320"/>
+      <point x="109" y="339" type="curve" smooth="yes"/>
+      <point x="137" y="381"/>
+      <point x="219" y="496"/>
+      <point x="224" y="504" type="curve" smooth="yes"/>
+      <point x="242" y="533"/>
+      <point x="324" y="660"/>
+      <point x="343" y="684" type="curve" smooth="yes"/>
+      <point x="355" y="703"/>
+      <point x="376" y="707"/>
+      <point x="390" y="698" type="curve" smooth="yes"/>
+      <point x="409" y="686"/>
+      <point x="408" y="665"/>
+      <point x="391" y="636" type="curve" smooth="yes"/>
+      <point x="365" y="596"/>
+      <point x="293" y="493"/>
+      <point x="275" y="463" type="curve" smooth="yes"/>
+      <point x="267" y="449"/>
+      <point x="238" y="408"/>
+      <point x="212" y="370" type="curve" smooth="yes"/>
+      <point x="201" y="354"/>
+      <point x="189" y="336"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

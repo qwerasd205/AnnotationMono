@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="500"/>
+  <unicode hex="00B4"/>
+  <anchor x="360.7695154586736" y="600" name="top"/>
+  <outline>
+    <contour>
+      <point x="271.46686405134705" y="416" type="curve" smooth="yes"/>
+      <point x="238.46686405134705" y="416"/>
+      <point x="243.95020355295162" y="429"/>
+      <point x="256.38098417129856" y="453" type="curve" smooth="yes"/>
+      <point x="273.2233075215256" y="486"/>
+      <point x="293.4053768339083" y="524"/>
+      <point x="327.6066840327578" y="577" type="curve" smooth="yes"/>
+      <point x="341.7695154586736" y="600"/>
+      <point x="365.3246517300027" y="617"/>
+      <point x="395.5015662662425" y="599" type="curve" smooth="yes"/>
+      <point x="422.75027757220676" y="585"/>
+      <point x="419.1233445311532" y="564"/>
+      <point x="410.9079542219797" y="552" type="curve" smooth="yes"/>
+      <point x="367.29510429125014" y="490"/>
+      <point x="357.07971398207667" y="478"/>
+      <point x="333.5053398242807" y="446" type="curve" smooth="yes"/>
+      <point x="314.2707116286404" y="419"/>
+      <point x="303.46686405134705" y="416"/>
+    </contour>
+  </outline>
+</glyph>

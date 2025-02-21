@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m" format="2">
+  <advance width="500.0"/>
+  <unicode hex="006D"/>
+  <anchor x="307.1796769724491" y="400.0" name="top"/>
+  <anchor x="204.85640646055103" y="-8" name="cedilla"/>
+  <anchor x="350.856406460551" y="-8" name="ogonek"/>
+  <anchor x="203.0" y="0.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="161.59121970432918" y="409" type="curve" smooth="yes"/>
+      <point x="203.93096566648478" y="414"/>
+      <point x="206.25147374217357" y="404"/>
+      <point x="206.87325200708426" y="369" type="curve" smooth="yes"/>
+      <point x="207.7629794644261" y="335"/>
+      <point x="168.98214333163781" y="194"/>
+      <point x="128.0961894323342" y="75" type="curve" smooth="yes"/>
+      <point x="112.50257738807144" y="28"/>
+      <point x="108.32050807568876" y="-10"/>
+      <point x="42.85640646055102" y="-8" type="curve" smooth="yes"/>
+      <point x="-1.875644347017861" y="-7"/>
+      <point x="4.437193247169226" y="29"/>
+      <point x="19.423110136845253" y="70" type="curve" smooth="yes"/>
+      <point x="68.59625111504681" y="205"/>
+      <point x="70.02703173339376" y="229"/>
+      <point x="102.93222351916421" y="363" type="curve" smooth="yes"/>
+      <point x="113.04249606182236" y="397"/>
+      <point x="124.25147374217357" y="404"/>
+    </contour>
+    <contour>
+      <point x="267.34490073829846" y="61" type="curve" smooth="yes"/>
+      <point x="256.8230854637602" y="18"/>
+      <point x="250.12435565298213" y="-7"/>
+      <point x="204.85640646055103" y="-8" type="curve" smooth="yes"/>
+      <point x="153.5884572681199" y="-9"/>
+      <point x="157.16283142591584" y="23"/>
+      <point x="165.9333580064184" y="52" type="curve" smooth="yes"/>
+      <point x="184.08210632201025" y="116"/>
+      <point x="194.65648047980616" y="148"/>
+      <point x="217.2885682970026" y="225" type="curve" smooth="yes"/>
+      <point x="227.39884083966078" y="259"/>
+      <point x="262" y="307"/>
+      <point x="240" y="307" type="curve" smooth="yes"/>
+      <point x="223" y="307"/>
+      <point x="174.75266991214036" y="223"/>
+      <point x="159.96290544517097" y="179" type="curve"/>
+      <point x="176.41807872612762" y="274" type="line"/>
+      <point x="204.12196331304855" y="355"/>
+      <point x="242.8591688967603" y="410"/>
+      <point x="281.8591688967603" y="410" type="curve" smooth="yes"/>
+      <point x="316.8591688967603" y="410"/>
+      <point x="366.3040326254312" y="393"/>
+      <point x="318.7001110288827" y="234" type="curve" smooth="yes"/>
+      <point x="286.02954743875256" y="127"/>
+      <point x="285.6372425933393" y="133"/>
+    </contour>
+    <contour>
+      <point x="421.2795165973963" y="62" type="curve" smooth="yes"/>
+      <point x="412.757701322858" y="19"/>
+      <point x="388.856406460551" y="-8"/>
+      <point x="350.856406460551" y="-8" type="curve" smooth="yes"/>
+      <point x="286.5884572681199" y="-9"/>
+      <point x="302.16283142591584" y="23"/>
+      <point x="310.93335800641836" y="52" type="curve" smooth="yes"/>
+      <point x="328.08210632201025" y="116"/>
+      <point x="331.9244296722373" y="149"/>
+      <point x="359.2885682970026" y="225" type="curve" smooth="yes"/>
+      <point x="376.7578246882832" y="279"/>
+      <point x="402" y="306"/>
+      <point x="383" y="306" type="curve" smooth="yes"/>
+      <point x="360" y="306"/>
+      <point x="315.948822334847" y="220"/>
+      <point x="308.1975336408113" y="206" type="curve"/>
+      <point x="313.4706376093853" y="263" type="line"/>
+      <point x="346.67709958437763" y="372"/>
+      <point x="398.7937847558581" y="411"/>
+      <point x="429.1271180891914" y="411" type="curve" smooth="yes"/>
+      <point x="477.7937847558581" y="411"/>
+      <point x="514.4873597904933" y="380"/>
+      <point x="469.6347268879805" y="235" type="curve" smooth="yes"/>
+      <point x="436.9641632978504" y="128"/>
+      <point x="435.7154519918861" y="142"/>
+    </contour>
+  </outline>
+</glyph>

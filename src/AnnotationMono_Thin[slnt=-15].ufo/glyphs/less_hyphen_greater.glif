@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen_greater" format="2">
+  <advance width="1500"/>
+  <outline>
+    <contour>
+      <point x="82.38475772933681" y="300" type="curve" smooth="yes"/>
+      <point x="85.06424965364803" y="310"/>
+      <point x="99.13604642337252" y="314"/>
+      <point x="128.13604642337253" y="314" type="curve" smooth="yes"/>
+      <point x="183.13604642337253" y="314"/>
+      <point x="767.6001480385103" y="312"/>
+      <point x="779.6001480385103" y="312" type="curve" smooth="yes"/>
+      <point x="820.6001480385103" y="312"/>
+      <point x="1419.8680972309414" y="313"/>
+      <point x="1454.8680972309414" y="313" type="curve" smooth="yes"/>
+      <point x="1477.8680972309414" y="313"/>
+      <point x="1488.1360464233726" y="314"/>
+      <point x="1484.652706921768" y="301" type="curve" smooth="yes"/>
+      <point x="1480.9014182277322" y="287"/>
+      <point x="1488.7052658050256" y="290"/>
+      <point x="1453.4373166125945" y="289" type="curve" smooth="yes"/>
+      <point x="1405.9014182277322" y="287"/>
+      <point x="802.1693674201633" y="288"/>
+      <point x="765.1693674201633" y="288" type="curve" smooth="yes"/>
+      <point x="732.1693674201633" y="288"/>
+      <point x="142.43731661259446" y="289"/>
+      <point x="117.43731661259446" y="289" type="curve" smooth="yes"/>
+      <point x="89.43731661259446" y="289"/>
+      <point x="79.70526580502558" y="290"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.black-foundry.variable-components</key>
+      <array>
+        <dict>
+          <key>base</key>
+          <string>less</string>
+          <key>location</key>
+          <dict/>
+        </dict>
+        <dict>
+          <key>base</key>
+          <string>less</string>
+          <key>location</key>
+          <dict/>
+          <key>transformation</key>
+          <dict>
+            <key>rotation</key>
+            <integer>180</integer>
+            <key>scaleX</key>
+            <integer>1</integer>
+            <key>scaleY</key>
+            <integer>1</integer>
+            <key>skewX</key>
+            <integer>0</integer>
+            <key>skewY</key>
+            <integer>0</integer>
+            <key>tCenterX</key>
+            <integer>250</integer>
+            <key>tCenterY</key>
+            <integer>300</integer>
+            <key>translateX</key>
+            <real>1000.0</real>
+            <key>translateY</key>
+            <integer>0</integer>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

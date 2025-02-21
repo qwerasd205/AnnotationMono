@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen_less" format="2">
+  <advance width="1500"/>
+  <outline>
+    <contour>
+      <point x="52" y="300" type="curve" smooth="yes"/>
+      <point x="52" y="316"/>
+      <point x="65" y="333"/>
+      <point x="94" y="333" type="curve" smooth="yes"/>
+      <point x="146" y="333"/>
+      <point x="634" y="331"/>
+      <point x="646" y="331" type="curve" smooth="yes"/>
+      <point x="679" y="331"/>
+      <point x="1029" y="334"/>
+      <point x="1061" y="332" type="curve" smooth="yes"/>
+      <point x="1084" y="331"/>
+      <point x="1098" y="318"/>
+      <point x="1098" y="299" type="curve" smooth="yes"/>
+      <point x="1098" y="278"/>
+      <point x="1081" y="266"/>
+      <point x="1046" y="265" type="curve" smooth="yes"/>
+      <point x="999" y="264"/>
+      <point x="675" y="265"/>
+      <point x="638" y="264" type="curve" smooth="yes"/>
+      <point x="607" y="264"/>
+      <point x="108" y="263"/>
+      <point x="90" y="266" type="curve" smooth="yes"/>
+      <point x="62" y="270"/>
+      <point x="52" y="284"/>
+    </contour>
+    <component base="less"/>
+    <component base="less" xOffset="1000"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>AnnotationMono_ExtraBlack/public.default</key>
+        <string>weight=1000</string>
+        <key>AnnotationMono_Regular/public.default</key>
+        <string>default</string>
+        <key>AnnotationMono_Thin/public.default</key>
+        <string>weight=100</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>ExtraBlack</key>
+        <string>weight=1000</string>
+        <key>Regular</key>
+        <string>default</string>
+        <key>Thin</key>
+        <string>weight=100</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

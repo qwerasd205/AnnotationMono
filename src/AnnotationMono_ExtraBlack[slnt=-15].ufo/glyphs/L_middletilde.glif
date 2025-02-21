@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lmiddletilde" format="2">
+  <advance width="500"/>
+  <unicode hex="2C62"/>
+  <anchor x="334.7695154586736" y="600" name="top"/>
+  <anchor x="219.3397459621556" y="5" name="cedilla"/>
+  <anchor x="285.33974596215563" y="5" name="ogonek"/>
+  <anchor x="224.0" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="275.5015662662425" y="599" type="curve" smooth="yes"/>
+      <point x="326.03746465110476" y="601"/>
+      <point x="336.8746332251889" y="578"/>
+      <point x="334.51564937656644" y="558" type="curve" smooth="yes"/>
+      <point x="327.8502405625792" y="507"/>
+      <point x="309.70149224698736" y="443"/>
+      <point x="288.480947161671" y="375" type="curve" smooth="yes"/>
+      <point x="258.7385868018164" y="264"/>
+      <point x="205.58468371008166" y="144"/>
+      <point x="219.29749663118372" y="128" type="curve"/>
+      <point x="268.90519178577046" y="134"/>
+      <point x="277.90519178577046" y="134"/>
+      <point x="288.90519178577046" y="134" type="curve" smooth="yes"/>
+      <point x="343.90519178577046" y="134"/>
+      <point x="351.90519178577046" y="134"/>
+      <point x="422.76159824632146" y="126" type="curve" smooth="yes"/>
+      <point x="449.9577506690281" y="123"/>
+      <point x="460.7231224733878" y="96"/>
+      <point x="443.39745962155615" y="50" type="curve" smooth="yes"/>
+      <point x="437.6461709275204" y="36"/>
+      <point x="425.87564434701784" y="7"/>
+      <point x="400.53589838486226" y="2" type="curve" smooth="yes"/>
+      <point x="388.7320508075689" y="-1"/>
+      <point x="380.46410161513774" y="-2"/>
+      <point x="358.7320508075689" y="-1" type="curve" smooth="yes"/>
+      <point x="346.7320508075689" y="-1"/>
+      <point x="342.33974596215563" y="5"/>
+      <point x="219.3397459621556" y="5" type="curve" smooth="yes"/>
+      <point x="167.3397459621556" y="5"/>
+      <point x="156.9282032302755" y="-4"/>
+      <point x="112.9282032302755" y="-4" type="curve" smooth="yes"/>
+      <point x="58.92820323027551" y="-4"/>
+      <point x="63.14874831559185" y="64"/>
+      <point x="83.24493774792606" y="139" type="curve" smooth="yes"/>
+      <point x="105.21677152727811" y="221"/>
+      <point x="115.948822334847" y="220"/>
+      <point x="147.29887784928835" y="337" type="curve" smooth="yes"/>
+      <point x="165.51942293460468" y="405"/>
+      <point x="184.47201882748993" y="472"/>
+      <point x="202.24770018413534" y="557" type="curve" smooth="yes"/>
+      <point x="207.28617595706902" y="587"/>
+      <point x="235.69771868894912" y="596"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.black-foundry.variable-components</key>
+      <array>
+        <dict>
+          <key>base</key>
+          <string>tilde</string>
+          <key>location</key>
+          <dict>
+            <key>width</key>
+            <integer>400</integer>
+          </dict>
+          <key>transformation</key>
+          <dict>
+            <key>rotation</key>
+            <integer>0</integer>
+            <key>scaleX</key>
+            <integer>1</integer>
+            <key>scaleY</key>
+            <integer>1</integer>
+            <key>skewX</key>
+            <integer>0</integer>
+            <key>skewY</key>
+            <integer>0</integer>
+            <key>tCenterX</key>
+            <integer>250</integer>
+            <key>tCenterY</key>
+            <integer>300</integer>
+            <key>translateX</key>
+            <real>-89.6667900320919</real>
+            <key>translateY</key>
+            <integer>-260</integer>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primemod" format="2">
+  <advance width="500"/>
+  <unicode hex="02B9"/>
+  <anchor x="250" y="620" name="top"/>
+  <outline>
+    <contour>
+      <point x="196" y="443" type="curve" smooth="yes"/>
+      <point x="173" y="443"/>
+      <point x="168" y="475"/>
+      <point x="178" y="501" type="curve" smooth="yes"/>
+      <point x="187" y="526"/>
+      <point x="211" y="572"/>
+      <point x="220" y="593" type="curve" smooth="yes"/>
+      <point x="233" y="621"/>
+      <point x="245" y="620"/>
+      <point x="276" y="620" type="curve" smooth="yes"/>
+      <point x="329" y="620"/>
+      <point x="337" y="600"/>
+      <point x="316" y="556" type="curve" smooth="yes"/>
+      <point x="294" y="509"/>
+      <point x="273" y="480"/>
+      <point x="264" y="469" type="curve" smooth="yes"/>
+      <point x="236" y="437"/>
+      <point x="221" y="443"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tbar" format="2">
+  <advance width="500"/>
+  <unicode hex="0166"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.black-foundry.variable-components</key>
+      <array>
+        <dict>
+          <key>base</key>
+          <string>T</string>
+          <key>location</key>
+          <dict/>
+        </dict>
+        <dict>
+          <key>base</key>
+          <string>hyphen</string>
+          <key>location</key>
+          <dict>
+            <key>width</key>
+            <integer>300</integer>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

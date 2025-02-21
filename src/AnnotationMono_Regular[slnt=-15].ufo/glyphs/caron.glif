@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="500"/>
+  <unicode hex="02C7"/>
+  <anchor x="362.6451598056915" y="607" name="top"/>
+  <outline>
+    <contour>
+      <point x="207.9131089981226" y="608" type="curve" smooth="yes"/>
+      <point x="216.78875334514046" y="615"/>
+      <point x="256.3246517300027" y="617"/>
+      <point x="264.9131089981226" y="608" type="curve" smooth="yes"/>
+      <point x="276.89387111165576" y="593"/>
+      <point x="328.869478449046" y="522"/>
+      <point x="335.0463929852858" y="504" type="curve"/>
+      <point x="343.52973248689045" y="517"/>
+      <point x="445.6977186889491" y="596"/>
+      <point x="460.6451598056915" y="607" type="curve" smooth="yes"/>
+      <point x="474.5926009224338" y="618"/>
+      <point x="510.78875334514044" y="615"/>
+      <point x="517.1810581905537" y="609" type="curve" smooth="yes"/>
+      <point x="524.3054138435359" y="602"/>
+      <point x="528.5541251495001" y="588"/>
+      <point x="510.5348872630333" y="573" type="curve" smooth="yes"/>
+      <point x="470.9605131052374" y="541"/>
+      <point x="367.84508578643636" y="451"/>
+      <point x="353.897644669694" y="440" type="curve" smooth="yes"/>
+      <point x="346.28994951510725" y="434"/>
+      <point x="327.2181527453828" y="430"/>
+      <point x="316.2181527453828" y="430" type="curve" smooth="yes"/>
+      <point x="311.2181527453828" y="430"/>
+      <point x="291.02200032267615" y="433"/>
+      <point x="285.1655938621251" y="441" type="curve" smooth="yes"/>
+      <point x="271.6489333637297" y="454"/>
+      <point x="214.49641149009963" y="543"/>
+      <point x="196.26693807060218" y="572" type="curve" smooth="yes"/>
+      <point x="188.55412514950015" y="588"/>
+      <point x="197.03746465110473" y="601"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

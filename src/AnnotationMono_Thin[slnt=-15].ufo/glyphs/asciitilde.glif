@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde" format="2">
+  <advance width="500.0"/>
+  <unicode hex="007E"/>
+  <outline>
+    <contour>
+      <point x="493.3950672816226" y="412" type="curve" smooth="yes"/>
+      <point x="504.1271180891914" y="411"/>
+      <point x="501.91172778001794" y="399"/>
+      <point x="492.1412011995154" y="370" type="curve" smooth="yes"/>
+      <point x="466.58091015204343" y="297"/>
+      <point x="438.3744481770511" y="188"/>
+      <point x="347.3744481770511" y="188" type="curve" smooth="yes"/>
+      <point x="251.37444817705108" y="188"/>
+      <point x="287.1271180891914" y="411"/>
+      <point x="186.3040326254312" y="393" type="curve" smooth="yes"/>
+      <point x="141.16043908598223" y="385"/>
+      <point x="107.93989400066589" y="317"/>
+      <point x="88.96806022131383" y="235" type="curve" smooth="yes"/>
+      <point x="80.3936860635179" y="203"/>
+      <point x="74.83854979218881" y="186"/>
+      <point x="63.83854979218882" y="186" type="curve" smooth="yes"/>
+      <point x="50.83854979218882" y="186"/>
+      <point x="54.929584448380155" y="205"/>
+      <point x="67.03985699103832" y="239" type="curve" smooth="yes"/>
+      <point x="97.01169077039039" y="321"/>
+      <point x="113.12711808919143" y="411"/>
+      <point x="210.1271180891914" y="411" type="curve" smooth="yes"/>
+      <point x="299.1271180891914" y="411"/>
+      <point x="280.3936860635179" y="203"/>
+      <point x="354.1975336408113" y="206" type="curve" smooth="yes"/>
+      <point x="429.26933041053576" y="210"/>
+      <point x="458.60014803851027" y="312"/>
+      <point x="475.28479473896437" y="378" type="curve" smooth="yes"/>
+      <point x="483.05532131946694" y="407"/>
+      <point x="483.6630164740537" y="413"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

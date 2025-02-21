@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>xyz.fontra.lineMetricsHorizontalLayout.zones</key>
+    <dict>
+      <key>ascender</key>
+      <integer>16</integer>
+      <key>baseline</key>
+      <integer>-16</integer>
+      <key>capHeight</key>
+      <integer>16</integer>
+      <key>descender</key>
+      <integer>-16</integer>
+      <key>xHeight</key>
+      <integer>16</integer>
+    </dict>
+  </dict>
+</plist>

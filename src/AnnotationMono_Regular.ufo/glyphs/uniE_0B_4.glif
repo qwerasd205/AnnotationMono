@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniE0B4" format="2">
+  <advance width="500"/>
+  <unicode hex="E0B4"/>
+  <outline>
+    <contour>
+      <point x="-5" y="-204" type="curve" smooth="yes"/>
+      <point x="480" y="-204"/>
+      <point x="520" y="141"/>
+      <point x="520" y="300" type="curve" smooth="yes"/>
+      <point x="520" y="449"/>
+      <point x="479" y="803"/>
+      <point x="-3" y="803" type="curve" smooth="yes"/>
+      <point x="-7" y="803"/>
+      <point x="-6" y="792"/>
+      <point x="-6" y="774" type="curve" smooth="yes"/>
+      <point x="-8" y="630"/>
+      <point x="-7" y="18"/>
+      <point x="-7" y="-159" type="curve" smooth="yes"/>
+      <point x="-7" y="-188"/>
+      <point x="-8" y="-204"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

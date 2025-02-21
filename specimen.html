@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annotation Mono</title>
+    <style>
+      @font-face {
+        font-family: "Annotation Mono";
+        src:
+          url("./dist/variable/AnnotationMono-VF.ttf") format("truetype")
+            tech(variations),
+          url("./dist/variable_woff2/AnnotationMono-VF.woff2") format("woff2")
+            tech(variations);
+      }
+    </style>
+    <style>
+      /* Reset from https://www.joshwcomeau.com/css/custom-css-reset/ */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      * {
+        margin: 0;
+      }
+      body {
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+      img,
+      picture,
+      video,
+      canvas,
+      svg {
+        display: block;
+        max-width: 100%;
+      }
+      input,
+      button,
+      textarea,
+      select {
+        font: inherit;
+      }
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        overflow-wrap: break-word;
+      }
+      p {
+        text-wrap: pretty;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-wrap: balance;
+      }
+      #root,
+      #__next {
+        isolation: isolate;
+      }
+    </style>
+    <style>
+      :root {
+        --background-color: #fffaf8;
+        --background-color-lo: #dfdfe0;
+        --background-color-hi: #fff0e0;
+        --background-color-indicator: #fa2;
+        --heading-color: #213;
+        --text-color: #334;
+        --text-color-lo: #556;
+        --text-color-hi: #101;
+        --unvisited-color: #27f;
+        --visited-color: #86e;
+        --link-color: var(--unvisited-color);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: #223;
+          --background-color-lo: #443d44;
+          --background-color-hi: #524048;
+          --background-color-indicator: #e98;
+          --heading-color: #edd;
+          --text-color: #dcc;
+          --text-color-lo: #a99;
+          --text-color-hi: #fee;
+          --unvisited-color: #7af;
+          --visited-color: #87f;
+        }
+      }
+
+      a {
+        color: var(--text-color);
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: var(--unvisited-color);
+
+        &:visited {
+          text-decoration-color: var(--visited-color);
+        }
+
+        &:hover,
+        &:focus {
+          color: var(--unvisited-color);
+          text-decoration: underline;
+          text-decoration-style: solid;
+
+          &:visited {
+            color: var(--visited-color);
+            text-decoration-color: var(--visited-color);
+          }
+        }
+      }
+
+      body {
+        font-family: Annotation Mono;
+        margin: 2em 3em;
+        font-size: 14pt;
+        font-weight: 500;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        padding: 2ex 3ch;
+        margin: auto;
+        text-align: left;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+      }
+
+      pre {
+        font-family: Annotation Mono;
+        font-size: 100%;
+        font-weight: 500;
+      }
+
+      h1 {
+        color: var(--heading-color);
+        font-weight: 700;
+      }
+
+      p {
+        max-width: 80ch;
+        margin-block: 2ex;
+      }
+
+      hr {
+        margin-block: 2ex;
+      }
+
+      .pulse {
+        border-bottom: 0.2ch solid var(--text-color);
+      }
+      .pulse > span {
+        animation: pulse infinite ease-in-out 1.5s;
+        display: inline-block;
+        width: 10pt;
+        &:nth-child(10n + 1) {
+          animation-delay: -1s;
+        }
+        &:nth-child(10n + 2) {
+          animation-delay: -0.9s;
+        }
+        &:nth-child(10n + 3) {
+          animation-delay: -0.8s;
+        }
+        &:nth-child(10n + 4) {
+          animation-delay: -0.7s;
+        }
+        &:nth-child(10n + 5) {
+          animation-delay: -0.6s;
+        }
+        &:nth-child(10n + 6) {
+          animation-delay: -0.5s;
+        }
+        &:nth-child(10n + 7) {
+          animation-delay: -0.4s;
+        }
+        &:nth-child(10n + 8) {
+          animation-delay: -0.3s;
+        }
+        &:nth-child(10n + 9) {
+          animation-delay: -0.2s;
+        }
+        &:nth-child(10n + 10) {
+          animation-delay: -0.1s;
+        }
+      }
+
+      @keyframes pulse {
+        from {
+          font-variation-settings:
+            "wght" 400,
+            "slnt" 0;
+        }
+        40% {
+          font-variation-settings:
+            "wght" 400,
+            "slnt" 0;
+        }
+        50% {
+          font-variation-settings:
+            "wght" 200,
+            "slnt" -15;
+        }
+        70% {
+          font-variation-settings:
+            "wght" 1000,
+            "slnt" -10;
+        }
+        90% {
+          font-variation-settings:
+            "wght" 400,
+            "slnt" -5;
+        }
+        to {
+          font-variation-settings:
+            "wght" 400,
+            "slnt" 0;
+        }
+      }
+
+      .specimen {
+        border: 0.15ch solid var(--text-color);
+        padding: 0.5ch 1ch;
+        line-height: 2;
+        max-width: 80ch;
+
+        &.chars > span {
+          display: inline-block;
+          width: 14pt;
+        }
+      }
+
+      .wght100 {
+        font-variation-settings: "wght" 100;
+      }
+      .wght200 {
+        font-variation-settings: "wght" 200;
+      }
+      .wght300 {
+        font-variation-settings: "wght" 300;
+      }
+      .wght400 {
+        font-variation-settings: "wght" 400;
+      }
+      .wght500 {
+        font-variation-settings: "wght" 500;
+      }
+      .wght600 {
+        font-variation-settings: "wght" 600;
+      }
+      .wght700 {
+        font-variation-settings: "wght" 700;
+      }
+      .wght800 {
+        font-variation-settings: "wght" 800;
+      }
+      .wght900 {
+        font-variation-settings: "wght" 900;
+      }
+      .wght1000 {
+        font-variation-settings: "wght" 1000;
+      }
+      .slnt-15 {
+        font-variation-settings: "slnt" -15;
+      }
+
+      table {
+        max-width: 80ch;
+      }
+
+      #floater-demo {
+        width: 100%;
+        position: relative;
+        transform: translate3D(0, 0, 0);
+
+        .floater {
+          font-size: 125%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          white-space: nowrap;
+          text-align: center;
+        }
+      }
+
+      h2 {
+        margin-top: 1.5em;
+      }
+
+      .noliga {
+        font-feature-settings: "liga" 0;
+        font-variant-ligatures: none;
+      }
+
+      .ss01 {
+        font-feature-settings: "ss01" 1;
+      }
+
+      .onum {
+        font-feature-settings: "onum" 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Annotation Mono <i style="font-weight: 400">v0.1</i></h1>
+    <p>
+      A lovingly crafted handwriting-style monospace font.<br />
+      Oh yeah... and it's
+      <span class="pulse"
+        ><span>v</span><span>a</span><span>r</span><span>i</span><span>a</span
+        ><span>b</span><span>l</span><span>e</span><span>!</span></span
+      >
+    </p>
+    <hr />
+    <p>
+      Annotation Mono is an idealized handwriting; using letterforms inspired by
+      monospace bitmap fonts, legibility is maximized while retaining a
+      hand-written character.
+    </p>
+    <p>
+      Its variable weights make Annotation Mono ideal for a wide variety of use
+      cases other than code, including labels and headings. Given its
+      hand-written look, you could even use it for comic lettering if you want.
+    </p>
+
+    <p>
+      <a href="https://github.com/qwerasd205/AnnotationMono/releases/latest"
+        >Download Annotation Mono from GitHub</a
+      >
+      or continue reading to learn more about the font.
+    </p>
+
+    <h2>Variable Axes</h2>
+    <p>
+      Annotation Mono features two variable axes, <b>wght</b> (weight) and
+      <i>slnt</i> (slant).
+    </p>
+    <p>
+      The weight axis allows fine-grained selection of text weight from Thin to
+      ExtraBlack, and with the slant axis, an exact pitch angle can be chosen
+      from Upright at 0° to Oblique at -15°.
+    </p>
+
+    <table style="border-spacing: 1ch">
+      <tbody>
+        <tr>
+          <td class="wght100">100</td>
+          <td class="wght100">Thin</td>
+          <td id="floater-demo" colspan="2" rowspan="10">
+            <noscript>This demo requires JavaScript</noscript>
+          </td>
+        </tr>
+        <tr>
+          <td class="wght200">200</td>
+          <td class="wght200">ExtraLight</td>
+        </tr>
+        <tr>
+          <td class="wght300">300</td>
+          <td class="wght300">Light</td>
+        </tr>
+        <tr>
+          <td class="wght400">400</td>
+          <td class="wght400">Regular</td>
+        </tr>
+        <tr>
+          <td class="wght500">500</td>
+          <td class="wght500">Medium</td>
+        </tr>
+        <tr>
+          <td class="wght600">600</td>
+          <td class="wght600">DemiBold</td>
+        </tr>
+        <tr>
+          <td class="wght700">700</td>
+          <td class="wght700">Bold</td>
+        </tr>
+        <tr>
+          <td class="wght800">800</td>
+          <td class="wght800">ExtraBold</td>
+        </tr>
+        <tr>
+          <td class="wght900">900</td>
+          <td class="wght900">Black</td>
+        </tr>
+        <tr>
+          <td class="wght1000">1000</td>
+          <td class="wght1000">ExtraBlack</td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td>0° Upright</td>
+          <td class="slnt-15" style="text-align: right">-15° Oblique</td>
+        </tr>
+      </tbody>
+    </table>
+    <p></p>
+
+    <h2>Language and Symbol Support</h2>
+    <p>
+      More language support and additional technical glpyhs are planned for the
+      future, but right now Annotation Mono supports a broad range of
+      Latin-based languages -- 377 according to
+      <a href="https://github.com/googlefonts/shaperglot">Shaperglot</a>.
+    </p>
+    <div class="chars specimen">
+      <span> </span><span>!</span><span>"</span><span>#</span><span>$</span
+      ><span>%</span><span>&</span><span>'</span><span>(</span><span>)</span
+      ><span>*</span><span>+</span><span>,</span><span>-</span><span>.</span
+      ><span>/</span><span>0</span><span>1</span><span>2</span><span>3</span
+      ><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span
+      ><span>9</span><span>:</span><span>;</span><span><</span><span>=</span
+      ><span>></span><span>?</span><span>@</span><span>A</span><span>B</span
+      ><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span
+      ><span>H</span><span>I</span><span>J</span><span>K</span><span>L</span
+      ><span>M</span><span>N</span><span>O</span><span>P</span><span>Q</span
+      ><span>R</span><span>S</span><span>T</span><span>U</span><span>V</span
+      ><span>W</span><span>X</span><span>Y</span><span>Z</span><span>[</span
+      ><span>\</span><span>]</span><span>^</span><span>_</span><span>`</span
+      ><span>a</span><span>b</span><span>c</span><span>d</span><span>e</span
+      ><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span
+      ><span>k</span><span>l</span><span>m</span><span>n</span><span>o</span
+      ><span>p</span><span>q</span><span>r</span><span>s</span><span>t</span
+      ><span>u</span><span>v</span><span>w</span><span>x</span><span>y</span
+      ><span>z</span><span>{</span><span>|</span><span>}</span><span>~</span
+      ><span> </span><span>¡</span><span>¢</span><span>£</span><span>¥</span
+      ><span>¨</span><span>©</span><span>ª</span><span>«</span><span>®</span
+      ><span>¯</span><span>°</span><span>²</span><span>³</span><span>´</span
+      ><span>·</span><span>¸</span><span>¹</span><span>º</span><span>»</span
+      ><span>¼</span><span>½</span><span>¾</span><span>¿</span><span>À</span
+      ><span>Á</span><span>Â</span><span>Ã</span><span>Ä</span><span>Å</span
+      ><span>Æ</span><span>Ç</span><span>È</span><span>É</span><span>Ê</span
+      ><span>Ë</span><span>Ì</span><span>Í</span><span>Î</span><span>Ï</span
+      ><span>Ð</span><span>Ñ</span><span>Ò</span><span>Ó</span><span>Ô</span
+      ><span>Õ</span><span>Ö</span><span>×</span><span>Ø</span><span>Ù</span
+      ><span>Ú</span><span>Û</span><span>Ü</span><span>Ý</span><span>Þ</span
+      ><span>ß</span><span>à</span><span>á</span><span>â</span><span>ã</span
+      ><span>ä</span><span>å</span><span>æ</span><span>ç</span><span>è</span
+      ><span>é</span><span>ê</span><span>ë</span><span>ì</span><span>í</span
+      ><span>î</span><span>ï</span><span>ð</span><span>ñ</span><span>ò</span
+      ><span>ó</span><span>ô</span><span>õ</span><span>ö</span><span>÷</span
+      ><span>ø</span><span>ù</span><span>ú</span><span>û</span><span>ü</span
+      ><span>ý</span><span>þ</span><span>ÿ</span><span>Ā</span><span>ā</span
+      ><span>Ă</span><span>ă</span><span>Ą</span><span>ą</span><span>Ć</span
+      ><span>ć</span><span>Ĉ</span><span>ĉ</span><span>Ċ</span><span>ċ</span
+      ><span>Č</span><span>č</span><span>Ď</span><span>ď</span><span>Đ</span
+      ><span>đ</span><span>Ē</span><span>ē</span><span>Ĕ</span><span>ĕ</span
+      ><span>Ė</span><span>ė</span><span>Ę</span><span>ę</span><span>Ě</span
+      ><span>ě</span><span>Ĝ</span><span>ĝ</span><span>Ğ</span><span>ğ</span
+      ><span>Ġ</span><span>ġ</span><span>Ģ</span><span>ģ</span><span>Ĥ</span
+      ><span>ĥ</span><span>Ħ</span><span>ħ</span><span>Ĩ</span><span>ĩ</span
+      ><span>Ī</span><span>ī</span><span>Ĭ</span><span>ĭ</span><span>Į</span
+      ><span>į</span><span>İ</span><span>ı</span><span>Ĳ</span><span>ĳ</span
+      ><span>Ĵ</span><span>ĵ</span><span>Ķ</span><span>ķ</span><span>ĸ</span
+      ><span>Ĺ</span><span>ĺ</span><span>Ļ</span><span>ļ</span><span>Ľ</span
+      ><span>ľ</span><span>Ŀ</span><span>ŀ</span><span>Ł</span><span>ł</span
+      ><span>Ń</span><span>ń</span><span>Ņ</span><span>ņ</span><span>Ň</span
+      ><span>ň</span><span>Ŋ</span><span>ŋ</span><span>Ō</span><span>ō</span
+      ><span>Ŏ</span><span>ŏ</span><span>Ő</span><span>ő</span><span>Œ</span
+      ><span>œ</span><span>Ŕ</span><span>ŕ</span><span>Ŗ</span><span>ŗ</span
+      ><span>Ř</span><span>ř</span><span>Ś</span><span>ś</span><span>Ŝ</span
+      ><span>ŝ</span><span>Ş</span><span>ş</span><span>Š</span><span>š</span
+      ><span>Ţ</span><span>ţ</span><span>Ť</span><span>ť</span><span>Ŧ</span
+      ><span>ŧ</span><span>Ũ</span><span>ũ</span><span>Ū</span><span>ū</span
+      ><span>Ŭ</span><span>ŭ</span><span>Ů</span><span>ů</span><span>Ű</span
+      ><span>ű</span><span>Ų</span><span>ų</span><span>Ŵ</span><span>ŵ</span
+      ><span>Ŷ</span><span>ŷ</span><span>Ÿ</span><span>Ź</span><span>ź</span
+      ><span>Ż</span><span>ż</span><span>Ž</span><span>ž</span><span>ſ</span
+      ><span>Ɔ</span><span>Ə</span><span>Ɨ</span><span>ƚ</span><span>Ơ</span
+      ><span>ơ</span><span>Ư</span><span>ư</span><span>Ʒ</span><span>ǂ</span
+      ><span>Ǎ</span><span>ǎ</span><span>Ǐ</span><span>ǐ</span><span>Ǒ</span
+      ><span>ǒ</span><span>Ǔ</span><span>ǔ</span><span>Ǖ</span><span>ǖ</span
+      ><span>Ǘ</span><span>ǘ</span><span>Ǚ</span><span>ǚ</span><span>Ǜ</span
+      ><span>ǜ</span><span>Ǟ</span><span>ǟ</span><span>Ǡ</span><span>ǡ</span
+      ><span>Ǣ</span><span>ǣ</span><span>Ǥ</span><span>ǥ</span><span>Ǧ</span
+      ><span>ǧ</span><span>Ǩ</span><span>ǩ</span><span>Ǫ</span><span>ǫ</span
+      ><span>Ǭ</span><span>ǭ</span><span>Ǯ</span><span>ǯ</span><span>ǰ</span
+      ><span>Ǵ</span><span>ǵ</span><span>Ǹ</span><span>ǹ</span><span>Ǻ</span
+      ><span>ǻ</span><span>Ǽ</span><span>ǽ</span><span>Ǿ</span><span>ǿ</span
+      ><span>Ș</span><span>ș</span><span>Ț</span><span>ț</span><span>Ȟ</span
+      ><span>ȟ</span><span>Ȧ</span><span>ȧ</span><span>Ȩ</span><span>ȩ</span
+      ><span>Ȫ</span><span>ȫ</span><span>Ȭ</span><span>ȭ</span><span>Ȯ</span
+      ><span>ȯ</span><span>Ȱ</span><span>ȱ</span><span>Ȳ</span><span>ȳ</span
+      ><span>ȷ</span><span>Ⱥ</span><span>Ȼ</span><span>ȼ</span><span>Ƚ</span
+      ><span>Ⱦ</span><span>Ɂ</span><span>ɂ</span><span>ɔ</span><span>ə</span
+      ><span>ɨ</span><span>ɫ</span><span>ʒ</span><span>ʔ</span><span>ʕ</span
+      ><span>ʹ</span><span>ʻ</span><span>ʼ</span><span>ˀ</span><span>ˆ</span
+      ><span>ˇ</span><span>ˈ</span><span>˘</span><span>˙</span><span>˚</span
+      ><span>˛</span><span>˜</span><span>˝</span><span>̀</span><span>́</span
+      ><span>̂</span><span>̃</span><span>̄</span><span>̆</span><span>̇</span
+      ><span>̈</span><span>̉</span><span>̊</span><span>̋</span><span>̌</span
+      ><span>̓</span><span>̕</span><span>̛</span><span>̣</span><span>̦</span
+      ><span>̧</span><span>̨</span><span>̱</span><span>̲</span><span>̵</span
+      ><span>̈́</span><span>΅</span><span>π</span><span>Ḃ</span><span>ḃ</span
+      ><span>Ḅ</span><span>ḅ</span><span>Ḇ</span><span>ḇ</span><span>Ḉ</span
+      ><span>ḉ</span><span>Ḋ</span><span>ḋ</span><span>Ḍ</span><span>ḍ</span
+      ><span>Ḏ</span><span>ḏ</span><span>Ḑ</span><span>ḑ</span><span>Ḕ</span
+      ><span>ḕ</span><span>Ḗ</span><span>ḗ</span><span>Ḝ</span><span>ḝ</span
+      ><span>Ḟ</span><span>ḟ</span><span>Ḡ</span><span>ḡ</span><span>Ḣ</span
+      ><span>ḣ</span><span>Ḥ</span><span>ḥ</span><span>Ḧ</span><span>ḧ</span
+      ><span>Ḩ</span><span>ḩ</span><span>Ḯ</span><span>ḯ</span><span>Ḱ</span
+      ><span>ḱ</span><span>Ḳ</span><span>ḳ</span><span>Ḵ</span><span>ḵ</span
+      ><span>Ḷ</span><span>ḷ</span><span>Ḹ</span><span>ḹ</span><span>Ḻ</span
+      ><span>ḻ</span><span>Ḿ</span><span>ḿ</span><span>Ṁ</span><span>ṁ</span
+      ><span>Ṃ</span><span>ṃ</span><span>Ṅ</span><span>ṅ</span><span>Ṇ</span
+      ><span>ṇ</span><span>Ṉ</span><span>ṉ</span><span>Ṍ</span><span>ṍ</span
+      ><span>Ṏ</span><span>ṏ</span><span>Ṑ</span><span>ṑ</span><span>Ṓ</span
+      ><span>ṓ</span><span>Ṕ</span><span>ṕ</span><span>Ṗ</span><span>ṗ</span
+      ><span>Ṙ</span><span>ṙ</span><span>Ṛ</span><span>ṛ</span><span>Ṝ</span
+      ><span>ṝ</span><span>Ṟ</span><span>ṟ</span><span>Ṡ</span><span>ṡ</span
+      ><span>Ṣ</span><span>ṣ</span><span>Ṥ</span><span>ṥ</span><span>Ṧ</span
+      ><span>ṧ</span><span>Ṩ</span><span>ṩ</span><span>Ṫ</span><span>ṫ</span
+      ><span>Ṭ</span><span>ṭ</span><span>Ṯ</span><span>ṯ</span><span>Ṹ</span
+      ><span>ṹ</span><span>Ṻ</span><span>ṻ</span><span>Ṽ</span><span>ṽ</span
+      ><span>Ṿ</span><span>ṿ</span><span>Ẁ</span><span>ẁ</span><span>Ẃ</span
+      ><span>ẃ</span><span>Ẅ</span><span>ẅ</span><span>Ẇ</span><span>ẇ</span
+      ><span>Ẉ</span><span>ẉ</span><span>Ẋ</span><span>ẋ</span><span>Ẍ</span
+      ><span>ẍ</span><span>Ẏ</span><span>ẏ</span><span>Ẑ</span><span>ẑ</span
+      ><span>Ẓ</span><span>ẓ</span><span>Ẕ</span><span>ẕ</span><span>ẖ</span
+      ><span>ẗ</span><span>ẘ</span><span>ẙ</span><span>ẛ</span><span>ẞ</span
+      ><span>Ạ</span><span>ạ</span><span>Ả</span><span>ả</span><span>Ấ</span
+      ><span>ấ</span><span>Ầ</span><span>ầ</span><span>Ẩ</span><span>ẩ</span
+      ><span>Ẫ</span><span>ẫ</span><span>Ậ</span><span>ậ</span><span>Ắ</span
+      ><span>ắ</span><span>Ằ</span><span>ằ</span><span>Ẳ</span><span>ẳ</span
+      ><span>Ẵ</span><span>ẵ</span><span>Ặ</span><span>ặ</span><span>Ẹ</span
+      ><span>ẹ</span><span>Ẻ</span><span>ẻ</span><span>Ẽ</span><span>ẽ</span
+      ><span>Ế</span><span>ế</span><span>Ề</span><span>ề</span><span>Ể</span
+      ><span>ể</span><span>Ễ</span><span>ễ</span><span>Ệ</span><span>ệ</span
+      ><span>Ỉ</span><span>ỉ</span><span>Ị</span><span>ị</span><span>Ọ</span
+      ><span>ọ</span><span>Ỏ</span><span>ỏ</span><span>Ố</span><span>ố</span
+      ><span>Ồ</span><span>ồ</span><span>Ổ</span><span>ổ</span><span>Ỗ</span
+      ><span>ỗ</span><span>Ộ</span><span>ộ</span><span>Ớ</span><span>ớ</span
+      ><span>Ờ</span><span>ờ</span><span>Ở</span><span>ở</span><span>Ỡ</span
+      ><span>ỡ</span><span>Ợ</span><span>ợ</span><span>Ụ</span><span>ụ</span
+      ><span>Ủ</span><span>ủ</span><span>Ứ</span><span>ứ</span><span>Ừ</span
+      ><span>ừ</span><span>Ử</span><span>ử</span><span>Ữ</span><span>ữ</span
+      ><span>Ự</span><span>ự</span><span>Ỳ</span><span>ỳ</span><span>Ỵ</span
+      ><span>ỵ</span><span>Ỷ</span><span>ỷ</span><span>Ỹ</span><span>ỹ</span
+      ><span>῭</span><span>΅</span><span>–</span><span>—</span><span>‘</span
+      ><span>’</span><span>‚</span><span>“</span><span>”</span><span>„</span
+      ><span>•</span><span>…</span><span>‰</span><span>‹</span><span>›</span
+      ><span>⁄</span><span>⁰</span><span>⁴</span><span>⁵</span><span>⁶</span
+      ><span>⁷</span><span>⁸</span><span>⁹</span><span>₀</span><span>₁</span
+      ><span>₂</span><span>₃</span><span>₄</span><span>₅</span><span>₆</span
+      ><span>₇</span><span>₈</span><span>₉</span><span>€</span><span>™</span
+      ><span>Å</span><span>⅓</span><span>⅔</span><span>−</span><span>⟨</span
+      ><span>⟩</span><span>Ɫ</span><span>ⱥ</span><span>ⱦ</span><span></span
+      ><span></span><span></span><span></span><span></span><span></span
+      ><span></span><span></span><span></span><span></span><span></span
+      ><span></span><span></span><span></span><span></span><span></span
+      ><span></span><span></span><span></span><span></span><span></span
+      ><span></span><span></span><span></span>
+    </div>
+    <p></p>
+
+    <h2>Ligatures</h2>
+    <p>
+      Annotation Mono has a carefully selected collection of ligatures which
+      smooth the rough edges of certain multi-symbol formations often
+      encountered in programming contexts.
+    </p>
+    <pre class="specimen">
+<b>Standard ligatures (liga)</b>
+These ligatures are controlled by the `liga` OpenType feature. The intent is
+that these are unobtrusive, mostly keeping the original shape of the component
+glyphs, only adjusting positioning and bridging gaps where there are implied
+connections in a multi-character formation.
+
+Arrow-like formations are connected in to readable arrows.
+      <span class="noliga">-&gt;</span> :: -&gt;
+      <span class="noliga">&lt;-</span> :: &lt;-
+      <span class="noliga">=&gt;</span> :: =&gt;
+ <span class="noliga">&gt;-&gt; &gt;=&gt;</span> :: &gt;-&gt; &gt;=&gt;
+ <span class="noliga">&lt;-&lt; &lt;=&lt;</span> :: &lt;-&lt; &lt;=&lt;
+ <span class="noliga">&lt;-&gt; &lt;=&gt;</span> :: &lt;-&gt; &lt;=&gt;
+
+In the future, additional ligatures may be added to address
+any formations which stick out to me in their un-ligated form.
+
+<b>&lt;= and &gt;= (ss01)</b>
+Ligatures for &lt;= and &gt;= are available by enabling Stylistic Set 01.
+ &lt;= :: <span class="ss01">&lt;=</span>
+ &gt;= :: <span class="ss01">&gt;=</span>
+</pre>
+
+    <h2>Other OpenType Features</h2>
+    <p>Other features provided by Annotation Mono.</p>
+    <pre class="specimen">
+<b>Old-style numerals (onum)</b>
+Old-style numerals blend better with lowercase text.
+ <span class="onum">0123456789</span> Old-style
+ 0123456789 Regular
+</pre>
+
+    <hr />
+    <footer>Copyright &copy; Qwerasd 2025</footer>
+
+    <script>
+      const floater_demo = document.getElementById("floater-demo");
+      const floaters = [];
+      for (let c of "Annotation Mono/<3/123/ABC/Variable/Slant/Weight/Qwerasd/v0.1".split(
+        "/",
+      )) {
+        const el = document.createElement("span");
+        el.className = "floater";
+        el.innerText = c;
+        el.style = "display:none";
+        floater_demo.append(el);
+
+        floaters.push({
+          el,
+          x0: Math.random(),
+          y0: Math.random(),
+          x1: Math.random(),
+          y1: Math.random(),
+        });
+      }
+      const mouse = {
+        x0: 0,
+        y0: 0,
+        x1: 0,
+        y1: 0,
+      };
+
+      let t = 0;
+      let dt = 0;
+      const step = 1000 / 60;
+      const maxv = 0.01;
+
+      const frame = (ts) => {
+        const bounds = floater_demo.getBoundingClientRect();
+        if (bounds.y + bounds.height < 0 || bounds.y > window.innerHeight) {
+          t = ts;
+          requestAnimationFrame(frame);
+          return;
+        }
+
+        dt += ts - t;
+        t = ts;
+        while (dt > 0) {
+          dt -= step;
+          for (const f of floaters) {
+            if (f === mouse) continue;
+            let vx = f.x1 - f.x0;
+            let vy = f.y1 - f.y0;
+
+            for (const o of floaters) {
+              if (o === f) continue;
+              let dx = f.x1 - o.x1;
+              let dy = f.y1 - o.y1;
+              const v = Math.hypot(dx, dy);
+              dx /= v;
+              dy /= v;
+              vx -= (0.01 * dx) / (100 * v) ** 2;
+              vy -= (0.01 * dy) / (100 * v) ** 2;
+              vx += (0.01 * dx) / (10 * v) ** 8;
+              vy += (0.01 * dy) / (10 * v) ** 8;
+            }
+
+            const v = Math.hypot(vx, vy);
+            if (v > maxv) {
+              vx *= maxv / v;
+              vy *= maxv / v;
+            }
+            let x = f.x1 + vx;
+            let y = f.y1 + vy;
+            if (x > 1) {
+              f.x1 = 2 - f.x1;
+              x = 2 - x;
+            } else if (x < 0) {
+              f.x1 = -f.x1;
+              x = -x;
+            }
+            if (y > 1) {
+              f.y1 = 2 - f.y1;
+              y = 2 - y;
+            } else if (y < 0) {
+              f.y1 = -f.y1;
+              y = -y;
+            }
+            f.x0 = f.x1;
+            f.y0 = f.y1;
+            f.x1 = x;
+            f.y1 = y;
+
+            if (dt <= 0) {
+              const wght = 100 + y * 900;
+              const slnt = x * -15;
+              f.el.style = `font-variation-settings: "wght" ${wght}, "slnt" ${slnt}; top: ${y * 100}%; left: ${x * 100}%`;
+            }
+          }
+        }
+        requestAnimationFrame(frame);
+      };
+
+      requestAnimationFrame(frame);
+
+      floater_demo.addEventListener("mouseenter", e => {
+        floaters.push(mouse);
+      });
+      floater_demo.addEventListener("mouseleave", e => {
+        if (floaters[floaters.length - 1] === mouse) floaters.pop();
+      });
+      floater_demo.addEventListener("mousemove", e => {
+        const bounds = floater_demo.getBoundingClientRect();
+        mouse.x1 = e.offsetX / bounds.width;
+        mouse.y1 = e.offsetY / bounds.height;
+      });
+    </script>
+  </body>
+</html>

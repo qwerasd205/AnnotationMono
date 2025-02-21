@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightanglebracket.math" format="2">
+  <advance width="500"/>
+  <unicode hex="27E9"/>
+  <outline>
+    <component base="leftanglebracket.math" xScale="-1" xOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

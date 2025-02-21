@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.onum" format="2">
+  <advance width="500.0"/>
+  <anchor x="250.0" y="-100.0" name="bottom"/>
+  <anchor x="260.0" y="450.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="425" y="217" type="curve" smooth="yes"/>
+      <point x="427" y="290"/>
+      <point x="377" y="428"/>
+      <point x="297" y="441" type="curve" smooth="yes"/>
+      <point x="222" y="453"/>
+      <point x="97" y="403"/>
+      <point x="89" y="291" type="curve" smooth="yes"/>
+      <point x="85" y="237"/>
+      <point x="88" y="115"/>
+      <point x="212" y="114" type="curve" smooth="yes"/>
+      <point x="251" y="114"/>
+      <point x="409" y="142"/>
+      <point x="425" y="286" type="curve"/>
+      <point x="432" y="250" type="line"/>
+      <point x="405" y="117"/>
+      <point x="245" y="93"/>
+      <point x="206" y="95" type="curve" smooth="yes"/>
+      <point x="65" y="101"/>
+      <point x="66" y="233"/>
+      <point x="72" y="306" type="curve" smooth="yes"/>
+      <point x="76" y="358"/>
+      <point x="147" y="466"/>
+      <point x="290" y="459" type="curve" smooth="yes"/>
+      <point x="325" y="457"/>
+      <point x="365" y="429"/>
+      <point x="387" y="393" type="curve" smooth="yes"/>
+      <point x="413" y="349"/>
+      <point x="441" y="312"/>
+      <point x="441" y="209" type="curve" smooth="yes"/>
+      <point x="441" y="99"/>
+      <point x="357" y="23"/>
+      <point x="257" y="-80" type="curve" smooth="yes"/>
+      <point x="226" y="-111"/>
+      <point x="221" y="-115"/>
+      <point x="214" y="-108" type="curve" smooth="yes"/>
+      <point x="206" y="-100"/>
+      <point x="217" y="-92"/>
+      <point x="239" y="-71" type="curve" smooth="yes"/>
+      <point x="391" y="75"/>
+      <point x="424" y="147"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

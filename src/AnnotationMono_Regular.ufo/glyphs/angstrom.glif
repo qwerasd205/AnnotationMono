@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="angstrom" format="2">
+  <advance width="500"/>
+  <unicode hex="212B"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb" xOffset="513" yOffset="-80"/>
+  </outline>
+</glyph>

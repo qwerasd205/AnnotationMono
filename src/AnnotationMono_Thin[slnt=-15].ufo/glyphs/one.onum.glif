@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.onum" format="2">
+  <advance width="500.0"/>
+  <anchor x="205.0" y="0.0" name="bottom"/>
+  <anchor x="326.5771365940052" y="450.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="333.11303497886746" y="452" type="line"/>
+      <point x="331.6296954772629" y="439"/>
+      <point x="332.70149224698736" y="443"/>
+      <point x="320.64377858758684" y="398" type="curve" smooth="yes"/>
+      <point x="301.1552843098394" y="329"/>
+      <point x="328.14635597565825" y="426"/>
+      <point x="282.3270440699363" y="255" type="curve" smooth="yes"/>
+      <point x="260.8911086754465" y="175"/>
+      <point x="247.83339501604596" y="130"/>
+      <point x="218.35898384862247" y="20" type="curve" smooth="yes"/>
+      <point x="216.21539030917347" y="12"/>
+      <point x="216.3397459621556" y="5"/>
+      <point x="203.3397459621556" y="5" type="curve" smooth="yes"/>
+      <point x="193.3397459621556" y="5"/>
+      <point x="198.09103465619134" y="19"/>
+      <point x="198.62693304105358" y="21" type="curve" smooth="yes"/>
+      <point x="209.273103968574" y="57"/>
+      <point x="246.25009252406892" y="195"/>
+      <point x="257.7001110288827" y="234" type="curve" smooth="yes"/>
+      <point x="251.5372796029669" y="211"/>
+      <point x="304.8591688967603" y="410"/>
+      <point x="313.96944143941846" y="444" type="curve"/>
+    </contour>
+    <contour>
+      <point x="12.607695154586736" y="6" type="curve" smooth="yes"/>
+      <point x="15.555136271329083" y="17"/>
+      <point x="23.287187078897965" y="16"/>
+      <point x="41.82308546376021" y="18" type="curve" smooth="yes"/>
+      <point x="74.62693304105358" y="21"/>
+      <point x="173.62693304105358" y="21"/>
+      <point x="213.62693304105358" y="21" type="curve" smooth="yes"/>
+      <point x="250.62693304105358" y="21"/>
+      <point x="317.3589838486225" y="20"/>
+      <point x="375.0910346561913" y="19" type="curve" smooth="yes"/>
+      <point x="396.8230854637602" y="18"/>
+      <point x="403.5551362713291" y="17"/>
+      <point x="401.6794919243112" y="10" type="curve" smooth="yes"/>
+      <point x="398.46410161513774" y="-2"/>
+      <point x="397.0" y="0"/>
+      <point x="380.0" y="0" type="curve" smooth="yes"/>
+      <point x="315.0" y="0"/>
+      <point x="244.0" y="0"/>
+      <point x="190.0" y="0" type="curve" smooth="yes"/>
+      <point x="167.0" y="0"/>
+      <point x="93.0" y="0"/>
+      <point x="31.0" y="0" type="curve" smooth="yes"/>
+      <point x="9.0" y="0"/>
+      <point x="11.267949192431125" y="1"/>
+    </contour>
+    <contour>
+      <point x="112.60014803851028" y="312" type="curve" smooth="yes"/>
+      <point x="110.54758915525264" y="323"/>
+      <point x="122.08348754011487" y="325"/>
+      <point x="136.95913188713274" y="332" type="curve" smooth="yes"/>
+      <point x="207.0694044297909" y="366"/>
+      <point x="256.32327051189804" y="408"/>
+      <point x="308.7207301334542" y="458" type="curve" smooth="yes"/>
+      <point x="322.2040696350588" y="471"/>
+      <point x="333.9886793258853" y="459"/>
+      <point x="333.11303497886746" y="452" type="curve" smooth="yes"/>
+      <point x="331.6296954772629" y="439"/>
+      <point x="327.11303497886746" y="452"/>
+      <point x="317.70149224698736" y="443" type="curve" smooth="yes"/>
+      <point x="269.1078802027246" y="396"/>
+      <point x="213.51426815846182" y="349"/>
+      <point x="151.01169077039037" y="321" type="curve" smooth="yes"/>
+      <point x="119.26040207635467" y="307"/>
+      <point x="114.26040207635467" y="307"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglleft" format="2">
+  <advance width="500.0"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="167.16421264402047" y="232" type="curve"/>
+      <point x="181.07317798782913" y="213"/>
+      <point x="277.2397829717832" y="83"/>
+      <point x="295.273103968574" y="57" type="curve" smooth="yes"/>
+      <point x="311.84232335022705" y="33"/>
+      <point x="330.5551362713291" y="17"/>
+      <point x="315.0717967697245" y="4" type="curve" smooth="yes"/>
+      <point x="305.66025403784437" y="-5"/>
+      <point x="292.2679491924311" y="1"/>
+      <point x="281.8230854637602" y="18" type="curve" smooth="yes"/>
+      <point x="249.56029104747196" y="73"/>
+      <point x="182.81931190572197" y="171"/>
+      <point x="158.85778767865565" y="201" type="curve" smooth="yes"/>
+      <point x="146.8770255651225" y="216"/>
+      <point x="141.41292394998476" y="218"/>
+      <point x="144.62831425915823" y="230" type="curve" smooth="yes"/>
+      <point x="147.8437045683317" y="242"/>
+      <point x="155.71934891534954" y="249"/>
+      <point x="175.47063760938528" y="263" type="curve" smooth="yes"/>
+      <point x="245.60014803851027" y="312"/>
+      <point x="312.33735362222205" y="367"/>
+      <point x="400.5053398242807" y="446" type="curve" smooth="yes"/>
+      <point x="419.06047609560983" y="463"/>
+      <point x="430.66817125019656" y="469"/>
+      <point x="439.4527809410231" y="457" type="curve" smooth="yes"/>
+      <point x="448.96944143941846" y="444"/>
+      <point x="404.73481324377815" y="417"/>
+      <point x="375.3040326254312" y="393" type="curve" smooth="yes"/>
+      <point x="334.46170927520416" y="360"/>
+      <point x="186.1834505304873" y="247"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

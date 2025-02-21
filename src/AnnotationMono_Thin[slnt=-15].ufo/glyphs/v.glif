@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v" format="2">
+  <advance width="500.0"/>
+  <unicode hex="0076"/>
+  <anchor x="307.1796769724491" y="400.0" name="top"/>
+  <anchor x="197.5884572681199" y="-9" name="cedilla"/>
+  <anchor x="197.5884572681199" y="-9" name="ogonek"/>
+  <anchor x="200.0" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="105.59121970432918" y="409" type="curve" smooth="yes"/>
+      <point x="118.46686405134705" y="416"/>
+      <point x="116.05532131946694" y="407"/>
+      <point x="123.82069312382663" y="380" type="curve" smooth="yes"/>
+      <point x="196.76159824632146" y="126"/>
+      <point x="181.4115427318801" y="9"/>
+      <point x="202.4115427318801" y="9" type="curve"/>
+      <point x="219.4115427318801" y="9"/>
+      <point x="269.9577506690281" y="123"/>
+      <point x="480.62454070112" y="383" type="curve" smooth="yes"/>
+      <point x="503.1271180891914" y="411"/>
+      <point x="500.19891485891594" y="415"/>
+      <point x="510.05532131946694" y="407" type="curve" smooth="yes"/>
+      <point x="518.4476261648801" y="401"/>
+      <point x="514.9117277800179" y="399"/>
+      <point x="494.480947161671" y="375" type="curve" smooth="yes"/>
+      <point x="408.8821803412654" y="272"/>
+      <point x="344.1590578678776" y="176"/>
+      <point x="250.25386608210715" y="42" type="curve" smooth="yes"/>
+      <point x="230.7512886940357" y="14"/>
+      <point x="217.5884572681199" y="-9"/>
+      <point x="197.5884572681199" y="-9" type="curve" smooth="yes"/>
+      <point x="178.5884572681199" y="-9"/>
+      <point x="176.94744111674234" y="11"/>
+      <point x="172.25386608210715" y="42" type="curve" smooth="yes"/>
+      <point x="147.25009252406892" y="195"/>
+      <point x="137.5949932623674" y="256"/>
+      <point x="104.67709958437764" y="372" type="curve" smooth="yes"/>
+      <point x="99.76813424056897" y="391"/>
+      <point x="93.98352454974244" y="403"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

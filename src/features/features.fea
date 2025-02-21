@@ -1,0 +1,102 @@
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+feature locl {
+  #################################################
+  # Lookups for Romanian and Moldavian advised by #
+  # http://diacritics.typo.cz/index.php?id=9      #
+
+  language ROM exclude_dflt; # Romanian
+  lookup locl_ROM {
+    sub [
+      scedilla
+      Scedilla
+      tcedilla
+      Tcedilla
+    ] by [
+      scommaaccent
+      Scommaaccent
+      tcommaaccent
+      Tcommaaccent
+    ];
+  } locl_ROM;
+ 
+  language MOL exclude_dflt; # Moldavian
+  lookup locl_ROM;
+
+  #                                               #
+  #################################################
+} locl;
+
+feature liga {
+  ## Compose
+  # <->
+  sub less hyphen greater by less_hyphen_greater;
+  # <-<
+  sub less hyphen less by less_hyphen_less;
+  # >->
+  sub greater hyphen greater by greater_hyphen_greater;
+  # <=>
+  sub less equal greater by less_equal_greater;
+  # <=<
+  sub less equal less by less_equal_less;
+  # >=>
+  sub greater equal greater by greater_equal_greater;
+  # <-
+  sub less hyphen by less_hyphen;
+  # ->
+  sub hyphen greater by hyphen_greater;
+  # =>
+  sub equal greater by equal_greater;
+
+  ## Decompose certain known bad cases
+  # ==>
+  sub equal equal_greater' by equal greater;
+} liga;
+
+feature ss01 {
+  ## Compose
+  # <=
+  sub less equal by less_equal;
+  # >=
+  sub greater equal by greater_equal;
+
+  ## Decompose certain known bad cases
+  # <==
+  # <==>
+  sub less_equal' [equal equal_greater] by less equal;
+  # >==
+  # >=<
+  sub greater_equal' [equal less] by greater equal;
+  # <<=
+  sub less less_equal' by less equal;
+  # >>=
+  sub greater greater_equal' by greater equal;
+} ss01;
+
+feature onum {
+  sub [
+    zero
+    one
+    two
+    three
+    four
+    five
+    six
+    seven
+    eight
+    nine
+  ] by [
+    zero.onum
+    one.onum
+    two.onum
+    three.onum
+    four.onum
+    five.onum
+    six.onum
+    seven.onum
+    eight.onum
+    nine.onum
+  ];
+} onum;

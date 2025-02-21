@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primemod" format="2">
+  <advance width="500"/>
+  <unicode hex="02B9"/>
+  <anchor x="366.12849930729607" y="620" name="top"/>
+  <outline>
+    <contour>
+      <point x="283.38098417129856" y="453" type="curve" smooth="yes"/>
+      <point x="274.91688255616083" y="455"/>
+      <point x="279.8643236729032" y="466"/>
+      <point x="289.9553583290945" y="485" type="curve" smooth="yes"/>
+      <point x="311.4053768339083" y="524"/>
+      <point x="330.24770018413534" y="557"/>
+      <point x="345.21437918734455" y="583" type="curve" smooth="yes"/>
+      <point x="361.71695657541596" y="611"/>
+      <point x="371.20029607702054" y="624"/>
+      <point x="380.20029607702054" y="624" type="curve" smooth="yes"/>
+      <point x="407.20029607702054" y="624"/>
+      <point x="399.86055011486496" y="619"/>
+      <point x="373.33873484032665" y="576" type="curve" smooth="yes"/>
+      <point x="346.28102118092613" y="531"/>
+      <point x="325.97459621556135" y="500"/>
+      <point x="312.88356155937004" y="481" type="curve" smooth="yes"/>
+      <point x="299.25662851831646" y="460"/>
+      <point x="288.11303497886746" y="452"/>
+    </contour>
+  </outline>
+</glyph>

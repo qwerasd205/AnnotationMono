@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="500"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="395.2528549602782" y="613" type="curve" smooth="yes"/>
+      <point x="403.9131089981226" y="608"/>
+      <point x="411.89387111165576" y="593"/>
+      <point x="392.4630904933088" y="569" type="curve" smooth="yes"/>
+      <point x="378.9079542219797" y="552"/>
+      <point x="361.9605131052374" y="541"/>
+      <point x="355.1899865247348" y="512" type="curve"/>
+      <point x="384.11818975501035" y="508"/>
+      <point x="390.2233075215256" y="486"/>
+      <point x="382.25662851831646" y="460" type="curve" smooth="yes"/>
+      <point x="371.3425083983649" y="423"/>
+      <point x="338.1796769724491" y="400"/>
+      <point x="312.1796769724491" y="400" type="curve" smooth="yes"/>
+      <point x="286.1796769724491" y="400"/>
+      <point x="269.9309656664848" y="414"/>
+      <point x="266.55789870753836" y="435" type="curve" smooth="yes"/>
+      <point x="256.8502405625792" y="507"/>
+      <point x="313.92719210844655" y="567"/>
+      <point x="348.429769496518" y="595" type="curve" smooth="yes"/>
+      <point x="367.44900738298486" y="610"/>
+      <point x="383.12849930729607" y="620"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

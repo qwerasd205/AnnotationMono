@@ -1,0 +1,7 @@
+fontmake
+fonttools
+ufolib2
+ufoProcessor
+glyphsLib
+gftools
+git+https://github.com/googlefonts/fontra.git

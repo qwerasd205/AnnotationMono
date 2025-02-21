@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="500"/>
+  <unicode hex="006A"/>
+  <anchor x="390.7695154586736" y="600" name="top"/>
+  <anchor x="162.0089283341811" y="-97" name="cedilla"/>
+  <anchor x="162.0089283341811" y="-97" name="ogonek"/>
+  <anchor x="162.0089283341811" y="-97" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="506.94127521877056" y="526" type="curve" smooth="yes"/>
+      <point x="495.8117647896455" y="477"/>
+      <point x="461.7207301334542" y="458"/>
+      <point x="417.4527809410231" y="457" type="curve" smooth="yes"/>
+      <point x="372.18483174859193" y="456"/>
+      <point x="353.07971398207667" y="478"/>
+      <point x="365.94127521877056" y="526" type="curve" smooth="yes"/>
+      <point x="379.6066840327578" y="577"/>
+      <point x="410.6977186889491" y="596"/>
+      <point x="454.6977186889491" y="596" type="curve" smooth="yes"/>
+      <point x="499.6977186889491" y="596"/>
+      <point x="518.3387348403267" y="576"/>
+    </contour>
+    <component base="jdotless"/>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="-139.23048454132638" y="600" name="_top"/>
+  <anchor x="-74.11883078056357" y="843" name="top"/>
+  <outline>
+    <component base="hungarumlaut" xOffset="-416.41016151377545" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillacomb" format="2">
+  <unicode hex="0327"/>
+  <anchor x="-250" y="0" name="_cedilla"/>
+  <anchor x="-228" y="-161" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-256" y="13" type="curve" smooth="yes"/>
+      <point x="-251" y="30"/>
+      <point x="-240" y="32"/>
+      <point x="-229" y="32" type="curve" smooth="yes"/>
+      <point x="-170" y="32"/>
+      <point x="-131" y="-19"/>
+      <point x="-131" y="-73" type="curve" smooth="yes"/>
+      <point x="-131" y="-95"/>
+      <point x="-140" y="-121"/>
+      <point x="-163" y="-141" type="curve" smooth="yes"/>
+      <point x="-187" y="-161"/>
+      <point x="-230" y="-179"/>
+      <point x="-269" y="-158" type="curve" smooth="yes"/>
+      <point x="-302" y="-138"/>
+      <point x="-316" y="-126"/>
+      <point x="-303" y="-103" type="curve" smooth="yes"/>
+      <point x="-290" y="-81"/>
+      <point x="-268" y="-90"/>
+      <point x="-257" y="-101" type="curve" smooth="yes"/>
+      <point x="-231" y="-127"/>
+      <point x="-183" y="-106"/>
+      <point x="-183" y="-66" type="curve" smooth="yes"/>
+      <point x="-183" y="-19"/>
+      <point x="-228" y="0"/>
+      <point x="-250" y="0" type="curve" smooth="yes"/>
+      <point x="-254" y="0"/>
+      <point x="-258" y="4"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

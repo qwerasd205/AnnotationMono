@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="500.0"/>
+  <unicode hex="0069"/>
+  <anchor x="360.7695154586736" y="600.0" name="top"/>
+  <anchor x="200.0" y="0.0" name="cedilla"/>
+  <anchor x="200.0" y="0.0" name="ogonek"/>
+  <anchor x="200.0" y="0.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="360.94127521877056" y="526" type="curve" smooth="yes"/>
+      <point x="355.8502405625792" y="507"/>
+      <point x="336.170748638268" y="497"/>
+      <point x="322.170748638268" y="497" type="curve" smooth="yes"/>
+      <point x="307.170748638268" y="497"/>
+      <point x="295.11818975501035" y="508"/>
+      <point x="299.94127521877056" y="526" type="curve" smooth="yes"/>
+      <point x="305.56820825982413" y="547"/>
+      <point x="323.97975099170424" y="556"/>
+      <point x="337.97975099170424" y="556" type="curve" smooth="yes"/>
+      <point x="352.97975099170424" y="556"/>
+      <point x="366.300259067393" y="546"/>
+    </contour>
+    <component base="idotless"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <unicode hex="030A"/>
+  <anchor x="-139.23048454132638" y="600" name="_top"/>
+  <anchor x="-64.47265985304315" y="879" name="top"/>
+  <outline>
+    <component base="ring" xOffset="-446.41016151377545" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

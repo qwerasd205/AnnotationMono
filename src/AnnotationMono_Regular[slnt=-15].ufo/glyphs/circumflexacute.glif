@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexacute" format="2">
+  <advance width="500"/>
+  <anchor x="403.3734370552221" y="759" name="top"/>
+  <outline>
+    <component base="circumflexcomb" xOffset="443.73066958946424" yOffset="-210"/>
+    <component base="acutecomb" xOffset="625.2627944162882" yOffset="-55"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q" format="2">
+  <advance width="500.0"/>
+  <unicode hex="0071"/>
+  <anchor x="301.1796769724491" y="400" name="top"/>
+  <anchor x="320.59738560230096" y="-106" name="cedilla"/>
+  <anchor x="320.59738560230096" y="-106" name="ogonek"/>
+  <anchor x="165.20508075688772" y="-100" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="415.92581089034195" y="358" type="curve"/>
+      <point x="404.7629794644261" y="335" type="line"/>
+      <point x="407.01684554653326" y="377"/>
+      <point x="344.64377858758684" y="398"/>
+      <point x="295.1078802027246" y="396" type="curve" smooth="yes"/>
+      <point x="210.3040326254312" y="393"/>
+      <point x="93.95397711098987" y="276"/>
+      <point x="73.32188929379342" y="199" type="curve" smooth="yes"/>
+      <point x="47.86671601283676" y="104"/>
+      <point x="143.0961894323342" y="75"/>
+      <point x="173.63208781719644" y="77" type="curve" smooth="yes"/>
+      <point x="256.16798620205867" y="79"/>
+      <point x="315.8333950160459" y="130"/>
+      <point x="379.55651748943376" y="226" type="curve"/>
+      <point x="369.17829575434445" y="191" type="line"/>
+      <point x="291.07695154586736" y="60"/>
+      <point x="201.0051547761429" y="56"/>
+      <point x="157.54105316100512" y="58" type="curve" smooth="yes"/>
+      <point x="142.80900235343626" y="59"/>
+      <point x="22.828240239903078" y="74"/>
+      <point x="56.05394010136229" y="198" type="curve" smooth="yes"/>
+      <point x="83.65270692176793" y="301"/>
+      <point x="211.32327051189804" y="408"/>
+      <point x="304.3950672816226" y="412" type="curve" smooth="yes"/>
+      <point x="363.19891485891594" y="415"/>
+      <point x="415.69633747084447" y="387"/>
+    </contour>
+    <contour>
+      <point x="462.1078802027246" y="396" type="curve" smooth="yes"/>
+      <point x="474.42838827841337" y="386"/>
+      <point x="431.33735362222205" y="367"/>
+      <point x="423.7104205811685" y="346" type="curve" smooth="yes"/>
+      <point x="418.95913188713274" y="332"/>
+      <point x="400.45139972291844" y="248"/>
+      <point x="374.67571836627303" y="163" type="curve" smooth="yes"/>
+      <point x="356.5987668204056" y="103"/>
+      <point x="277.22431864335454" y="-85"/>
+      <point x="324.22431864335454" y="-85" type="curve"/>
+      <point x="350.22431864335454" y="-85"/>
+      <point x="350.1051177665153" y="-22"/>
+      <point x="381.5884572681199" y="-9" type="curve" smooth="yes"/>
+      <point x="407.53589838486226" y="2"/>
+      <point x="432.7846096908265" y="-12"/>
+      <point x="423.7653718043597" y="-27" type="curve" smooth="yes"/>
+      <point x="419.88972745734185" y="-34"/>
+      <point x="413.6217782649107" y="-35"/>
+      <point x="394.7653718043597" y="-27" type="curve" smooth="yes"/>
+      <point x="375.1769145362398" y="-18"/>
+      <point x="361.59738560230096" y="-106"/>
+      <point x="320.59738560230096" y="-106" type="curve" smooth="yes"/>
+      <point x="268.59738560230096" y="-106"/>
+      <point x="298.66025403784437" y="-5"/>
+      <point x="311.0384757729337" y="30" type="curve" smooth="yes"/>
+      <point x="355.80007401925513" y="156"/>
+      <point x="381.77190779860723" y="238"/>
+      <point x="404.78221735089295" y="350" type="curve" smooth="yes"/>
+      <point x="407.46170927520416" y="360"/>
+      <point x="406.3899125054797" y="356"/>
+      <point x="424.480947161671" y="375" type="curve" smooth="yes"/>
+      <point x="442.83993101029347" y="395"/>
+      <point x="450.78737212703584" y="406"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

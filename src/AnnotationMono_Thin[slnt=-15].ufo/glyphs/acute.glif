@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="500"/>
+  <unicode hex="00B4"/>
+  <anchor x="360.7695154586736" y="600" name="top"/>
+  <outline>
+    <contour>
+      <point x="275.2707116286404" y="419" type="curve" smooth="yes"/>
+      <point x="267.0745592059338" y="422"/>
+      <point x="280.0937970924006" y="437"/>
+      <point x="295.25662851831646" y="460" type="curve" smooth="yes"/>
+      <point x="328.9220373323037" y="511"/>
+      <point x="330.2617832944593" y="516"/>
+      <point x="369.5348872630333" y="573" type="curve" smooth="yes"/>
+      <point x="384.6977186889491" y="596"/>
+      <point x="383.7695154586736" y="600"/>
+      <point x="396.429769496518" y="595" type="curve" smooth="yes"/>
+      <point x="409.8220743419313" y="589"/>
+      <point x="386.587446146291" y="562"/>
+      <point x="378.6400050295486" y="551" type="curve" smooth="yes"/>
+      <point x="337.83100267611235" y="492"/>
+      <point x="335.29510429125014" y="490"/>
+      <point x="307.041238209143" y="448" type="curve" smooth="yes"/>
+      <point x="288.8066100135027" y="421"/>
+      <point x="283.73481324377815" y="417"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

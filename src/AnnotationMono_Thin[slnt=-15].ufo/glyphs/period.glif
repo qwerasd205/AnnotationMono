@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="500.0"/>
+  <unicode hex="002E"/>
+  <anchor x="209.3782217350893" y="35.0" name="center"/>
+  <outline>
+    <contour>
+      <point x="239.3782217350893" y="35" type="curve" smooth="yes"/>
+      <point x="233.21539030917347" y="12"/>
+      <point x="219.3397459621556" y="5"/>
+      <point x="201.3397459621556" y="5" type="curve" smooth="yes"/>
+      <point x="180.3397459621556" y="5"/>
+      <point x="174.8230854637602" y="18"/>
+      <point x="179.3782217350893" y="35" type="curve" smooth="yes"/>
+      <point x="183.39745962155615" y="50"/>
+      <point x="196.416697508023" y="65"/>
+      <point x="217.416697508023" y="65" type="curve" smooth="yes"/>
+      <point x="236.416697508023" y="65"/>
+      <point x="243.66540881398726" y="51"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>QCode_Bold/public.default</key>
+        <string>weight=700</string>
+        <key>QCode_Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Bold</key>
+        <string>weight=700</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

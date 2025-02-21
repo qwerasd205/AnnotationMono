@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde" format="2">
+  <advance width="500.0"/>
+  <unicode hex="02DC"/>
+  <anchor x="367.4682452694517" y="625.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="556.0041436543139" y="627" type="curve" smooth="yes"/>
+      <point x="575.7169565754159" y="611"/>
+      <point x="577.5669504071446" y="598"/>
+      <point x="560.3323222115043" y="571" type="curve" smooth="yes"/>
+      <point x="510.0399803564635" y="499"/>
+      <point x="456.6489333637297" y="454"/>
+      <point x="392.6489333637297" y="454" type="curve" smooth="yes"/>
+      <point x="296.6489333637297" y="454"/>
+      <point x="306.83615745225524" y="548"/>
+      <point x="273.10410664468634" y="549" type="curve" smooth="yes"/>
+      <point x="252.37205583711747" y="550"/>
+      <point x="228.94127521877053" y="526"/>
+      <point x="208.17074863826798" y="497" type="curve" smooth="yes"/>
+      <point x="175.5771365940052" y="450"/>
+      <point x="171.8378140282569" y="436.6666666666667"/>
+      <point x="131.7271427622765" y="463" type="curve" smooth="yes"/>
+      <point x="115.85321667397291" y="474.6666666666667"/>
+      <point x="115.22972015034792" y="491"/>
+      <point x="136.07204350057498" y="524" type="curve" smooth="yes"/>
+      <point x="184.70413131777138" y="601"/>
+      <point x="223.00414365431394" y="627"/>
+      <point x="288.0041436543139" y="627" type="curve" smooth="yes"/>
+      <point x="395.0041436543139" y="627"/>
+      <point x="373.88871633551287" y="537"/>
+      <point x="412.88871633551287" y="537" type="curve" smooth="yes"/>
+      <point x="443.88871633551287" y="537"/>
+      <point x="462.4630904933088" y="569"/>
+      <point x="484.9656678813802" y="597" type="curve" smooth="yes"/>
+      <point x="513.8797880013318" y="634"/>
+      <point x="532.0951783105053" y="646"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,17 @@
+steps:
+- input: fontra-read
+  source: src/AnnotationMono.designspace
+
+- filter: set-font-info
+  fontInfo:
+    familyName: Annotation Mono
+    versionMajor: 0
+    versionMinor: 1
+
+- filter: decompose-composites
+  onlyVariableComposites: true
+
+  # Output our processed designspace and UFOs to the build dir so
+  # they can be built with fontmake in the rest of the build script.
+- output: fontra-write
+  destination: AnnotationMono.designspace

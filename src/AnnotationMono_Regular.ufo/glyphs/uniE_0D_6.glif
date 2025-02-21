@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniE0D6" format="2">
+  <advance width="500"/>
+  <unicode hex="E0D6"/>
+  <outline>
+    <contour>
+      <point x="-20" y="300" type="curve"/>
+      <point x="-20" y="-200" type="line"/>
+      <point x="498.9434814453125" y="-200" type="line" smooth="yes"/>
+      <point x="507" y="-200"/>
+      <point x="471.9946343399434" y="-174.99460150862873"/>
+      <point x="459" y="-162" type="curve" smooth="yes"/>
+      <point x="355" y="-58"/>
+      <point x="66" y="213"/>
+      <point x="-3" y="282" type="curve" smooth="yes"/>
+      <point x="-18" y="297"/>
+      <point x="-13" y="291"/>
+    </contour>
+    <contour>
+      <point x="-20" y="800" type="line"/>
+      <point x="-20" y="300" type="line"/>
+      <point x="-14" y="307"/>
+      <point x="-18" y="303"/>
+      <point x="1" y="322" type="curve" smooth="yes"/>
+      <point x="73" y="394"/>
+      <point x="395" y="696"/>
+      <point x="479" y="780" type="curve" smooth="yes"/>
+      <point x="489" y="790"/>
+      <point x="502" y="800"/>
+      <point x="499.318115234375" y="800" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

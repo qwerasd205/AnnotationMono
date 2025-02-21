@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="100" maximum="1000" default="400">
+      <labels>
+        <label uservalue="100" userminimum="100" usermaximum="150" name="Thin"/>
+        <label uservalue="200" userminimum="150" usermaximum="250" name="ExtraLight"/>
+        <label uservalue="300" userminimum="250" usermaximum="350" name="Light"/>
+        <label uservalue="400" userminimum="350" usermaximum="450" name="Regular"/>
+        <label uservalue="500" userminimum="450" usermaximum="550" name="Medium"/>
+        <label uservalue="600" userminimum="550" usermaximum="650" name="DemiBold"/>
+        <label uservalue="700" userminimum="650" usermaximum="750" name="Bold"/>
+        <label uservalue="800" userminimum="750" usermaximum="850" name="ExtraBold"/>
+        <label uservalue="900" userminimum="850" usermaximum="950" name="Black"/>
+        <label uservalue="1000" userminimum="950" usermaximum="1000" name="ExtraBlack"/>
+      </labels>
+    </axis>
+    <axis tag="slnt" name="slant" minimum="-15" maximum="0" default="0">
+      <labels>
+        <label uservalue="-15" userminimum="-1" usermaximum="-15" name="Oblique"/>
+        <label uservalue="0" userminimum="0" usermaximum="0" name="Upright" elidable="true"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="AnnotationMono_Thin.ufo" name="Thin" familyname="Annotation Mono" stylename="Thin">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_Regular.ufo" name="Regular" familyname="Annotation Mono" stylename="Regular">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_Bold.ufo" name="Bold" familyname="Annotation Mono" stylename="Bold">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_ExtraBlack.ufo" name="ExtraBlack" familyname="Annotation Mono" stylename="ExtraBlack">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_Thin[slnt=-15].ufo" name="Thin Oblique" familyname="Annotation Mono" stylename="Thin Oblique">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_Regular[slnt=-15].ufo" name="Regular Oblique" familyname="Annotation Mono" stylename="Regular Oblique">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_Bold[slnt=-15].ufo" name="Bold Oblique" familyname="Annotation Mono" stylename="Bold Oblique">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </source>
+    <source filename="AnnotationMono_ExtraBlack[slnt=-15].ufo" name="ExtraBlack Oblique" familyname="Annotation Mono" stylename="ExtraBlack Oblique">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Annotation Mono" stylename="Thin" filename="instances/Thin.ufo">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraLight" filename="instances/ExtraLight.ufo">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Light" filename="instances/Light.ufo">
+      <location>
+        <dimension name="weight" xvalue="300"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Regular" filename="instances/Regular.ufo">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Medium" filename="instances/Medium.ufo">
+      <location>
+        <dimension name="weight" xvalue="500"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="DemiBold" filename="instances/DemiBold.ufo">
+      <location>
+        <dimension name="weight" xvalue="600"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Bold" filename="instances/Bold.ufo">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBold" filename="instances/ExtraBold.ufo">
+      <location>
+        <dimension name="weight" xvalue="800"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Black" filename="instances/Black.ufo">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBlack" filename="instances/ExtraBlack.ufo">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Thin Oblique" filename="instances/Thin_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraLight Oblique" filename="instances/ExtraLight_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Light Oblique" filename="instances/Light_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="300"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Regular Oblique" filename="instances/Regular_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Medium Oblique" filename="instances/Medium_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="500"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="DemiBold Oblique" filename="instances/DemiBold_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="600"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Bold Oblique" filename="instances/Bold_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBold Oblique" filename="instances/ExtraBold_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="800"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Black Oblique" filename="instances/Black_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBlack Oblique" filename="instances/ExtraBlack_Oblique.ufo">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slant" xvalue="-15"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>fontra.projectGlyphSets</key>
+      <array>
+        <dict>
+          <key>commentChars</key>
+          <string>#</string>
+          <key>dataFormat</key>
+          <string>glyph-names</string>
+          <key>name</key>
+          <string>GF Latin Kernel</string>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/googlefonts/glyphsets/main/data/results/txt/nice-names/GF_Latin_Kernel.txt</string>
+        </dict>
+        <dict>
+          <key>commentChars</key>
+          <string>#</string>
+          <key>dataFormat</key>
+          <string>glyph-names</string>
+          <key>name</key>
+          <string>GF Latin Core</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Core.txt</string>
+        </dict>
+        <dict>
+          <key>commentChars</key>
+          <string>#</string>
+          <key>dataFormat</key>
+          <string>glyph-names</string>
+          <key>name</key>
+          <string>GF Latin Plus</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Plus.txt</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>unicode hex</string>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>name</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>BF Punctuation core</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/BlackFoundryCom/BF_font_standard/Punctuations/punctuation_core.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>unicode hex</string>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>name</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>BF Punctuation extended</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/BlackFoundryCom/BF_font_standard/Punctuations/punctuation_extended.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>unicode hex</string>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>name</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>BF Symbols core</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/BlackFoundryCom/BF_font_standard/Symbols/symbols_core.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>unicode hex</string>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>name</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>BF Symbols extended</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/BlackFoundryCom/BF_font_standard/Symbols/symbols_extended.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>0</string>
+          <key>codePointIsDecimal</key>
+          <false/>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>2</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>QW Box</string>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/qwerasd205/technical-glyphs/refs/heads/main/semigraphics/semigraphics_box.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>unicode hex</string>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>name</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>BF Math core</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/BlackFoundryCom/BF_font_standard/Maths/math_core.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>unicode hex</string>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>name</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>BF Math extended</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/BlackFoundryCom/BF_font_standard/Maths/math_extended.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>0</string>
+          <key>codePointIsDecimal</key>
+          <false/>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>2</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>QW NF PL</string>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/qwerasd205/technical-glyphs/refs/heads/main/nerd_fonts/pl.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>0</string>
+          <key>codePointIsDecimal</key>
+          <false/>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>2</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>QW NF PLE</string>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/qwerasd205/technical-glyphs/refs/heads/main/nerd_fonts/ple.csv</string>
+        </dict>
+        <dict>
+          <key>codePointColumn</key>
+          <string>0</string>
+          <key>codePointIsDecimal</key>
+          <false/>
+          <key>dataFormat</key>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>2</string>
+          <key>hasHeader</key>
+          <true/>
+          <key>name</key>
+          <string>QW Dingbats</string>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/qwerasd205/technical-glyphs/refs/heads/main/dingbats/dingbats.csv</string>
+        </dict>
+        <dict>
+          <key>commentChars</key>
+          <string>#</string>
+          <key>dataFormat</key>
+          <string>glyph-names</string>
+          <key>name</key>
+          <string>GF Latin Beyond</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Beyond.txt</string>
+        </dict>
+        <dict>
+          <key>commentChars</key>
+          <string>#</string>
+          <key>dataFormat</key>
+          <string>glyph-names</string>
+          <key>name</key>
+          <string>GF Greek Core</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Greek_Core.txt</string>
+        </dict>
+        <dict>
+          <key>commentChars</key>
+          <string>#</string>
+          <key>dataFormat</key>
+          <string>glyph-names</string>
+          <key>name</key>
+          <string>GF Latin Vietnamese</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Vietnamese.txt</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</designspace>
