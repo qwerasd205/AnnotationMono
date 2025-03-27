@@ -156,6 +156,8 @@
 
       .pulse {
         border-bottom: 0.2ch solid var(--text-color);
+        display: inline-block;
+        height: 20pt;
       }
       .pulse > span {
         animation: pulse infinite ease-in-out 1.5s;
@@ -231,6 +233,7 @@
         padding: 0.5ch 1ch;
         line-height: 2;
         max-width: 80ch;
+        overflow-x: scroll;
 
         &.chars > span {
           display: inline-block;
