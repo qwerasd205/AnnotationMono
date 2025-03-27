@@ -124,7 +124,8 @@
         font-family: Annotation Mono;
         margin: 2em 3em;
         font-size: 14pt;
-        font-weight: 500;
+        font-weight: unset;
+        font-variation-settings: "wght" 500;
         color: var(--text-color);
         background-color: var(--background-color);
         padding: 2ex 3ch;
@@ -137,12 +138,19 @@
       pre {
         font-family: Annotation Mono;
         font-size: 100%;
-        font-weight: 500;
+        font-weight: unset;
+        font-variation-settings: "wght" 500;
       }
 
-      h1 {
+      h1, h2, h3, h4 {
         color: var(--heading-color);
-        font-weight: 700;
+        font-weight: unset;
+        font-variation-settings: "wght" 850;
+      }
+
+      b {
+        font-weight: unset;
+        font-variation-settings: "wght" 850;
       }
 
       p {
@@ -312,7 +320,7 @@
     </style>
   </head>
   <body>
-    <h1>Annotation Mono <i style="font-weight: 400">v0.1</i></h1>
+    <h1>Annotation Mono <i style="font-weight: 400; font-variation-settings: 'wght' 400;">v0.1</i></h1>
     <p>
       A lovingly crafted handwriting-style monospace font.<br />
       Oh yeah... and it's
