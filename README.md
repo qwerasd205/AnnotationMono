@@ -2,6 +2,8 @@
 
 <p align="center">
   <a href="https://github.com/qwerasd205/AnnotationMono/releases/latest">Download</a>
+  |
+  <a href="https://qwerasd205.github.io/AnnotationMono">About</a>
 </p>
 
 # Annotation Mono
