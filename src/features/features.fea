@@ -1,3 +1,4 @@
+languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem latn ROM;
 languagesystem latn MOL;
