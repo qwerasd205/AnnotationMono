@@ -4,6 +4,8 @@
   <a href="https://qwerasd205.github.io/AnnotationMono">About</a>
   &nbsp; | &nbsp;
   <a href="https://github.com/qwerasd205/AnnotationMono/releases/latest">Download</a>
+  &nbsp; | &nbsp;
+  <a href="https://formulae.brew.sh/cask/font-annotation-mono">Install via Homebrew</a>
 </p>
 
 # Annotation Mono
