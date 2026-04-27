@@ -37,6 +37,11 @@ for ufo in src_dir.glob("*.ufo"):
 
     unis = {chr(u): g.name or f"uni{u:X}" for g in font for u in g.unicodes}
 
+    # Clear any existing autogen'd glyphs.
+    for g in font:
+        if (g.note == AUTOGEN_NOTE):
+            del g
+
     # Iterate through the basic multilingual plane and figure out
     # which characters we have the base glyphs to precompose.
     for i in range(65536):
@@ -50,49 +55,59 @@ for ufo in src_dir.glob("*.ufo"):
         if len(seq) < 2:
             continue
         if all([c in unis for c in seq]):
+            base_name = unis[seq[0]]
             name = u2n[i] if i in u2n else f"uni{i:X}"
             print(f"{chr(i)} -> {seq} (U+{i:X}, {name})")
 
-            components = [Component(unis[seq[0]])]
+            base_alternates = [
+                g for g in font.keys()
+                if g == base_name or g.startswith(base_name + ".")
+            ]
 
-            for c in seq[1:]:
-                comb = font[unis[c]]
+            for alt_base in base_alternates:
+                suffix = alt_base[len(base_name):]
+                out_name = name + suffix
 
-                matches = []
-                for cmp in components[::-1]:
-                    o = font[cmp.baseGlyph]
-                    for a in o.anchors:
-                        for ca in comb.anchors:
-                            if ca.name == f"_{a.name}":
-                                matches.append(
-                                    (
-                                        a.x + cmp.transformation.dx - ca.x,
-                                        a.y + cmp.transformation.dy - ca.y,
+                components = [Component(alt_base)]
+
+                for c in seq[1:]:
+                    comb = font[unis[c]]
+
+                    matches = []
+                    for cmp in components[::-1]:
+                        o = font[cmp.baseGlyph]
+                        for a in o.anchors:
+                            for ca in comb.anchors:
+                                if ca.name == f"_{a.name}":
+                                    matches.append(
+                                        (
+                                            a.x + cmp.transformation.dx - ca.x,
+                                            a.y + cmp.transformation.dy - ca.y,
+                                        )
                                     )
-                                )
 
-                t = Identity
+                    t = Identity
 
-                if len(matches) > 0:
-                    dx, dy = matches[0]
-                    t = t.translate(dx, dy)
-                else:
-                    t = t.translate(font[components[-1].baseGlyph].width, 0)
+                    if len(matches) > 0:
+                        dx, dy = matches[0]
+                        t = t.translate(dx, dy)
+                    else:
+                        t = t.translate(font[components[-1].baseGlyph].width, 0)
 
-                components.append(Component(unis[c], t))
+                    components.append(Component(unis[c], t))
 
-            if name in font and font[name].note == AUTOGEN_NOTE:
-                del font[name]
+                if out_name in font and font[out_name].note == AUTOGEN_NOTE:
+                    del font[out_name]
 
-            font.addGlyph(
-                Glyph(
-                    name,
-                    width=font[components[0].baseGlyph].width,
-                    height=font[components[0].baseGlyph].height,
-                    unicodes=[i],
-                    components=components,
-                    note=AUTOGEN_NOTE,
+                font.addGlyph(
+                    Glyph(
+                        out_name,
+                        width=font[components[0].baseGlyph].width,
+                        height=font[components[0].baseGlyph].height,
+                        unicodes=[i] if suffix == "" else [],
+                        components=components,
+                        note=AUTOGEN_NOTE,
+                    )
                 )
-            )
 
     font.save()

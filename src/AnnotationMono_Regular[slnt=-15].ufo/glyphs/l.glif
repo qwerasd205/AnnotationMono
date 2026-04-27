@@ -24,10 +24,10 @@
       <point x="321.19891485891594" y="415"/>
       <point x="283.09757065043885" y="284"/>
       <point x="233.68980147659698" y="122" type="curve" smooth="yes"/>
-      <point x="224.38337651123217" y="91"/>
-      <point x="230.39745962155615" y="50"/>
-      <point x="281.66540881398726" y="51" type="curve" smooth="yes"/>
-      <point x="329.93335800641836" y="52"/>
+      <point x="224" y="90"/>
+      <point x="225" y="47"/>
+      <point x="265" y="48" type="curve" smooth="yes"/>
+      <point x="313" y="49"/>
       <point x="335.07695154586736" y="60"/>
       <point x="349.416697508023" y="65" type="curve" smooth="yes"/>
       <point x="382.43593539448983" y="80"/>

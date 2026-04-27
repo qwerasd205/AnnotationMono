@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iacute.ital" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="idotless.ital"/>
+    <component base="acute" xOffset="57.38463436391157" yOffset="40"/>
+  </outline>
+</glyph>

@@ -198,6 +198,8 @@
     <string>eight.small.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
+    <key>eogonek</key>
+    <string>eogonek.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
     <key>euro</key>
@@ -208,6 +210,8 @@
     <string>ezh.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>f.ital.plain</key>
+    <string>f.ital.plain.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.onum</key>
@@ -252,30 +256,54 @@
     <string>hyphen.glif</string>
     <key>i</key>
     <string>i.glif</string>
+    <key>i.ital</key>
+    <string>i.ital.glif</string>
     <key>iacute</key>
     <string>iacute.glif</string>
+    <key>iacute.ital</key>
+    <string>iacute.ital.glif</string>
     <key>ibreve</key>
     <string>ibreve.glif</string>
+    <key>ibreve.ital</key>
+    <string>ibreve.ital.glif</string>
     <key>icaron</key>
     <string>icaron.glif</string>
+    <key>icaron.ital</key>
+    <string>icaron.ital.glif</string>
     <key>icircumflex</key>
     <string>icircumflex.glif</string>
+    <key>icircumflex.ital</key>
+    <string>icircumflex.ital.glif</string>
     <key>idieresis</key>
     <string>idieresis.glif</string>
+    <key>idieresis.ital</key>
+    <string>idieresis.ital.glif</string>
     <key>idotless</key>
     <string>idotless.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
+    <key>igrave.ital</key>
+    <string>igrave.ital.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
+    <key>imacron.ital</key>
+    <string>imacron.ital.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
+    <key>itilde.ital</key>
+    <string>itilde.ital.glif</string>
     <key>j</key>
     <string>j.glif</string>
+    <key>j.ital</key>
+    <string>j.ital.glif</string>
+    <key>j.ital.plain</key>
+    <string>j.ital.plain.glif</string>
     <key>jdotless</key>
     <string>jdotless.glif</string>
+    <key>jdotless.ital.plain</key>
+    <string>jdotless.ital.plain.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>kcommaaccent</key>
@@ -294,12 +322,16 @@
     <string>longs.glif</string>
     <key>m</key>
     <string>m.glif</string>
+    <key>m.ital</key>
+    <string>m.ital.glif</string>
     <key>macron</key>
     <string>macron.glif</string>
     <key>multiply</key>
     <string>multiply.glif</string>
     <key>n</key>
     <string>n.glif</string>
+    <key>n.ital</key>
+    <string>n.ital.glif</string>
     <key>ncommaaccent</key>
     <string>ncommaaccent.glif</string>
     <key>nine</key>
@@ -360,6 +392,8 @@
     <string>quotesingle.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>r.ital</key>
+    <string>r.ital.glif</string>
     <key>rcommaaccent</key>
     <string>rcommaaccent.glif</string>
     <key>ring</key>

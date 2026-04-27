@@ -5,7 +5,7 @@
   <anchor x="250" y="400" name="top"/>
   <anchor x="244" y="-107" name="cedilla"/>
   <anchor x="244" y="-107" name="ogonek"/>
-  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="250" y="-100" name="bottom"/>
   <outline>
     <contour>
       <point x="62" y="-26" type="curve" smooth="yes"/>
@@ -74,15 +74,4 @@
       <point x="373" y="386"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Bold</key>
-        <string>weight=700</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

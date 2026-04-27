@@ -169,6 +169,49 @@
       <string>g</string>
       <string>backslash</string>
       <string>comma</string>
+      <string>a.ital</string>
+      <string>b.ital</string>
+      <string>e.ital</string>
+      <string>f.ital</string>
+      <string>i.ital</string>
+      <string>idotless.ital</string>
+      <string>iacute.ital</string>
+      <string>ibreve.ital</string>
+      <string>icaron.ital</string>
+      <string>icircumflex.ital</string>
+      <string>idieresis.ital</string>
+      <string>idieresisacute.ital</string>
+      <string>igrave.ital</string>
+      <string>ihookabove.ital</string>
+      <string>imacron.ital</string>
+      <string>itilde.ital</string>
+      <string>j.ital</string>
+      <string>jdotless.ital</string>
+      <string>k.ital</string>
+      <string>g.cv01</string>
+      <string>l.ital</string>
+      <string>m.ital</string>
+      <string>x.ital</string>
+      <string>n.ital</string>
+      <string>w.ital</string>
+      <string>r.ital</string>
+      <string>v.ital</string>
+      <string>u.ital</string>
+      <string>c.ital</string>
+      <string>y.ital</string>
+      <string>q.ital</string>
+      <string>jdotless.ital.plain</string>
+      <string>p.ital</string>
+      <string>d.ital</string>
+      <string>h.ital</string>
+      <string>g.ital</string>
+      <string>s.ital</string>
+      <string>z.ital</string>
+      <string>f.ital.plain</string>
+      <string>g.ital.plain</string>
+      <string>j.ital.plain</string>
+      <string>l.ital.plain</string>
+      <string>y.ital.plain</string>
     </array>
     <key>ufoProcessor.fullDesignspaceLocation</key>
     <array>

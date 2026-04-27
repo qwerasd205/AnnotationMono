@@ -11,7 +11,18 @@ Prepare the build files, fixing them up before we call fontmake.
 import ufoLib2
 from pathlib import Path
 
-fea_text = Path("./src/features/features.fea").read_text()
+def processFea(path):
+    text = f"### START {path} ###\n"
+    for l in Path(path).read_text().splitlines(True):
+        if l.startswith("include("):
+            text = text + processFea("./src/features/" + l[8:-3])
+            text = text + f"### CONTINUE {path} ###\n"
+        else:
+            text = text + l
+    text = text + f"\n### END {path} ###\n"
+    return text
+
+fea_text = processFea("./src/features/features.fea")
 
 build_dir = Path(Path(__file__).resolve().parent, "./build/").resolve()
 for ufo in build_dir.glob("*.ufo"):

@@ -5,7 +5,7 @@
   <anchor x="307.1796769724491" y="400" name="top"/>
   <anchor x="165.32943640986986" y="-107" name="cedilla"/>
   <anchor x="165.32943640986986" y="-107" name="ogonek"/>
-  <anchor x="200.0" y="0" name="bottom"/>
+  <anchor x="200" y="-100" name="bottom"/>
   <outline>
     <contour>
       <point x="8.0" y="0" type="curve" smooth="yes"/>

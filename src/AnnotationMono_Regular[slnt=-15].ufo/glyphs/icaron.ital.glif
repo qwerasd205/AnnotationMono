@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="icaron.ital" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="idotless.ital"/>
+    <component base="caron" xOffset="-4.641016151377546" yOffset="20"/>
+  </outline>
+</glyph>

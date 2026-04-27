@@ -1,3 +1,5 @@
+include(./classes.fea);
+
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem latn ROM;
@@ -10,17 +12,10 @@ feature locl {
 
   language ROM exclude_dflt; # Romanian
   lookup locl_ROM {
-    sub [
-      scedilla
-      Scedilla
-      tcedilla
-      Tcedilla
-    ] by [
-      scommaaccent
-      Scommaaccent
-      tcommaaccent
-      Tcommaaccent
-    ];
+    sub @scedilla by scommaaccent;
+    sub @Scedilla by Scommaaccent;
+    sub @tcedilla by tcommaaccent;
+    sub @Tcedilla by Tcommaaccent;
   } locl_ROM;
  
   language MOL exclude_dflt; # Moldavian
@@ -56,6 +51,7 @@ feature liga {
   sub equal equal_greater' by equal greater;
 } liga;
 
+# <= and >= ligatures
 feature ss01 {
   ## Compose
   # <=
@@ -75,6 +71,32 @@ feature ss01 {
   # >>=
   sub greater greater_equal' by greater equal;
 } ss01;
+
+# plain (non-loopy) alternates for some italic forms
+feature ss02 {
+  sub @unloopable by @unlooped;
+} ss02;
+
+# plain (non-loopy) letter 'f'
+feature cv01 {
+  sub @unloopable_f by @unlooped_f;
+} cv01;
+# plain (non-loopy) letter 'g'
+feature cv02 {
+  sub @unloopable_g by @unlooped_g;
+} cv02;
+# plain (non-loopy) letter 'j'
+feature cv03 {
+  sub @unloopable_j by @unlooped_j;
+} cv03;
+# plain (non-loopy) letter 'l'
+feature cv04 {
+  sub @unloopable_l by @unlooped_l;
+} cv04;
+# plain (non-loopy) letter 'y'
+feature cv05 {
+  sub @unloopable_y by @unlooped_y;
+} cv05;
 
 feature onum {
   sub [
@@ -101,3 +123,7 @@ feature onum {
     nine.onum
   ];
 } onum;
+
+feature ital {
+  sub @italicizable by @italicized;
+} ital;

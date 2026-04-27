@@ -1,196 +1,834 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wght" name="weight" minimum="100" maximum="1000" default="400">
-      <labels>
-        <label uservalue="100" userminimum="100" usermaximum="150" name="Thin"/>
-        <label uservalue="200" userminimum="150" usermaximum="250" name="ExtraLight"/>
-        <label uservalue="300" userminimum="250" usermaximum="350" name="Light"/>
-        <label uservalue="400" userminimum="350" usermaximum="450" name="Regular"/>
-        <label uservalue="500" userminimum="450" usermaximum="550" name="Medium"/>
-        <label uservalue="600" userminimum="550" usermaximum="650" name="DemiBold"/>
-        <label uservalue="700" userminimum="650" usermaximum="750" name="Bold"/>
-        <label uservalue="800" userminimum="750" usermaximum="850" name="ExtraBold"/>
-        <label uservalue="900" userminimum="850" usermaximum="950" name="Black"/>
-        <label uservalue="1000" userminimum="950" usermaximum="1000" name="ExtraBlack"/>
-      </labels>
+    <axis tag="wght" name="Weight" minimum="100" maximum="1000" default="400">
+      <labelname xml:lang="en">Weight</labelname>
     </axis>
-    <axis tag="slnt" name="slant" minimum="-15" maximum="0" default="0">
-      <labels>
-        <label uservalue="-15" userminimum="-1" usermaximum="-15" name="Oblique"/>
-        <label uservalue="0" userminimum="0" usermaximum="0" name="Upright" elidable="true"/>
-      </labels>
+    <axis tag="slnt" name="Slant" minimum="-15" maximum="0" default="0">
+      <labelname xml:lang="en">Slant</labelname>
+    </axis>
+    <axis tag="CRSV" name="Cursive" minimum="0" maximum="1" default="0.500000">
+      <labelname xml:lang="en">Cursive</labelname>
     </axis>
   </axes>
+  <labels>
+    <label name="Thin">
+      <location>
+        <dimension name="Weight" uservalue="100"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="ExtraLight">
+      <location>
+        <dimension name="Weight" uservalue="200"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="Light">
+      <location>
+        <dimension name="Weight" uservalue="300"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="Regular">
+      <location>
+        <dimension name="Weight" uservalue="400"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="Medium">
+      <location>
+        <dimension name="Weight" uservalue="500"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="DemiBold">
+      <location>
+        <dimension name="Weight" uservalue="600"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="Bold">
+      <location>
+        <dimension name="Weight" uservalue="700"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="ExtraBold">
+      <location>
+        <dimension name="Weight" uservalue="800"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="Black">
+      <location>
+        <dimension name="Weight" uservalue="900"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="ExtraBlack">
+      <location>
+        <dimension name="Weight" uservalue="1000"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="0.500000"/>
+      </location>
+    </label>
+    <label name="Thin Oblique">
+      <location>
+        <dimension name="Weight" uservalue="100"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="ExtraLight Oblique">
+      <location>
+        <dimension name="Weight" uservalue="200"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="Light Oblique">
+      <location>
+        <dimension name="Weight" uservalue="300"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="Regular Oblique">
+      <location>
+        <dimension name="Weight" uservalue="400"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="Medium Oblique">
+      <location>
+        <dimension name="Weight" uservalue="500"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="DemiBold Oblique">
+      <location>
+        <dimension name="Weight" uservalue="600"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="Bold Oblique">
+      <location>
+        <dimension name="Weight" uservalue="700"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="ExtraBold Oblique">
+      <location>
+        <dimension name="Weight" uservalue="800"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="Black Oblique">
+      <location>
+        <dimension name="Weight" uservalue="900"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="ExtraBlack Oblique">
+      <location>
+        <dimension name="Weight" uservalue="1000"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="0"/>
+      </location>
+    </label>
+    <label name="Thin Italic">
+      <location>
+        <dimension name="Weight" uservalue="100"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="ExtraLight Italic">
+      <location>
+        <dimension name="Weight" uservalue="200"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Light Italic">
+      <location>
+        <dimension name="Weight" uservalue="300"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Regular Italic">
+      <location>
+        <dimension name="Weight" uservalue="400"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Medium Italic">
+      <location>
+        <dimension name="Weight" uservalue="500"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="DemiBold Italic">
+      <location>
+        <dimension name="Weight" uservalue="600"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Bold Italic">
+      <location>
+        <dimension name="Weight" uservalue="700"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="ExtraBold Italic">
+      <location>
+        <dimension name="Weight" uservalue="800"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Black Italic">
+      <location>
+        <dimension name="Weight" uservalue="900"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="ExtraBlack Italic">
+      <location>
+        <dimension name="Weight" uservalue="1000"/>
+        <dimension name="Slant" uservalue="-15"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Thin Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="100"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="ExtraLight Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="200"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Light Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="300"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Regular Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="400"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Medium Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="500"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="DemiBold Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="600"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Bold Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="700"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="ExtraBold Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="800"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="Black Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="900"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+    <label name="ExtraBlack Upright Italic">
+      <location>
+        <dimension name="Weight" uservalue="1000"/>
+        <dimension name="Slant" uservalue="0"/>
+        <dimension name="Cursive" uservalue="1"/>
+      </location>
+    </label>
+  </labels>
   <sources>
     <source filename="AnnotationMono_Thin.ufo" name="Thin" familyname="Annotation Mono" stylename="Thin">
       <location>
-        <dimension name="weight" xvalue="100"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_Regular.ufo" name="Regular" familyname="Annotation Mono" stylename="Regular">
       <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_Bold.ufo" name="Bold" familyname="Annotation Mono" stylename="Bold">
       <location>
-        <dimension name="weight" xvalue="700"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_ExtraBlack.ufo" name="ExtraBlack" familyname="Annotation Mono" stylename="ExtraBlack">
       <location>
-        <dimension name="weight" xvalue="1000"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="1000"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_Thin[slnt=-15].ufo" name="Thin Oblique" familyname="Annotation Mono" stylename="Thin Oblique">
       <location>
-        <dimension name="weight" xvalue="100"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_Regular[slnt=-15].ufo" name="Regular Oblique" familyname="Annotation Mono" stylename="Regular Oblique">
       <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_Bold[slnt=-15].ufo" name="Bold Oblique" familyname="Annotation Mono" stylename="Bold Oblique">
       <location>
-        <dimension name="weight" xvalue="700"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
     <source filename="AnnotationMono_ExtraBlack[slnt=-15].ufo" name="ExtraBlack Oblique" familyname="Annotation Mono" stylename="ExtraBlack Oblique">
       <location>
-        <dimension name="weight" xvalue="1000"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="1000"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </source>
   </sources>
+  <rules>
+    <rule name="autoitalic">
+      <conditionset>
+        <condition name="Slant" minimum="-15" maximum="-14.990000" />
+        <condition name="Cursive" minimum="0.100000" maximum="1" />
+      </conditionset>
+      <conditionset>
+        <condition name="Cursive" minimum="0.900000" maximum="1" />
+      </conditionset>
+      <sub name="a" with="a.ital" />
+      <sub name="aacute" with="aacute.ital" />
+      <sub name="abreve" with="abreve.ital" />
+      <sub name="abreveacute" with="abreveacute.ital" />
+      <sub name="abrevedotbelow" with="abrevedotbelow.ital" />
+      <sub name="abrevegrave" with="abrevegrave.ital" />
+      <sub name="abrevehookabove" with="abrevehookabove.ital" />
+      <sub name="abrevetilde" with="abrevetilde.ital" />
+      <sub name="acaron" with="acaron.ital" />
+      <sub name="acircumflex" with="acircumflex.ital" />
+      <sub name="acircumflexdotbelow" with="acircumflexdotbelow.ital" />
+      <sub name="acircumflexhookabove" with="acircumflexhookabove.ital" />
+      <sub name="acircumflextilde" with="acircumflextilde.ital" />
+      <sub name="adieresis" with="adieresis.ital" />
+      <sub name="adieresismacron" with="adieresismacron.ital" />
+      <sub name="adotaccent" with="adotaccent.ital" />
+      <sub name="adotbelow" with="adotbelow.ital" />
+      <sub name="adotmacron" with="adotmacron.ital" />
+      <sub name="agrave" with="agrave.ital" />
+      <sub name="ahookabove" with="ahookabove.ital" />
+      <sub name="amacron" with="amacron.ital" />
+      <sub name="aogonek" with="aogonek.ital" />
+      <sub name="aring" with="aring.ital" />
+      <sub name="aringacute" with="aringacute.ital" />
+      <sub name="atilde" with="atilde.ital" />
+      <sub name="b" with="b.ital" />
+      <sub name="bdotbelow" with="bdotbelow.ital" />
+      <sub name="bmacronbelow" with="bmacronbelow.ital" />
+      <sub name="c" with="c.ital" />
+      <sub name="cacute" with="cacute.ital" />
+      <sub name="ccaron" with="ccaron.ital" />
+      <sub name="ccedilla" with="ccedilla.ital" />
+      <sub name="ccedillaacute" with="ccedillaacute.ital" />
+      <sub name="ccircumflex" with="ccircumflex.ital" />
+      <sub name="cdotaccent" with="cdotaccent.ital" />
+      <sub name="d" with="d.ital" />
+      <sub name="dcedilla" with="dcedilla.ital" />
+      <sub name="ddotbelow" with="ddotbelow.ital" />
+      <sub name="e" with="e.ital" />
+      <sub name="eacute" with="eacute.ital" />
+      <sub name="ebreve" with="ebreve.ital" />
+      <sub name="ecaron" with="ecaron.ital" />
+      <sub name="ecedilla" with="ecedilla.ital" />
+      <sub name="ecedillabreve" with="ecedillabreve.ital" />
+      <sub name="ecircumflex" with="ecircumflex.ital" />
+      <sub name="ecircumflexdotbelow" with="ecircumflexdotbelow.ital" />
+      <sub name="ecircumflexhookabove" with="ecircumflexhookabove.ital" />
+      <sub name="ecircumflextilde" with="ecircumflextilde.ital" />
+      <sub name="edieresis" with="edieresis.ital" />
+      <sub name="edotaccent" with="edotaccent.ital" />
+      <sub name="edotbelow" with="edotbelow.ital" />
+      <sub name="egrave" with="egrave.ital" />
+      <sub name="ehookabove" with="ehookabove.ital" />
+      <sub name="emacron" with="emacron.ital" />
+      <sub name="emacronacute" with="emacronacute.ital" />
+      <sub name="emacrongrave" with="emacrongrave.ital" />
+      <sub name="eogonek" with="eogonek.ital" />
+      <sub name="etilde" with="etilde.ital" />
+      <sub name="f" with="f.ital" />
+      <sub name="fdotaccent" with="fdotaccent.ital" />
+      <sub name="g" with="g.ital" />
+      <sub name="gacute" with="gacute.ital" />
+      <sub name="gbreve" with="gbreve.ital" />
+      <sub name="gcaron" with="gcaron.ital" />
+      <sub name="gcircumflex" with="gcircumflex.ital" />
+      <sub name="gdotaccent" with="gdotaccent.ital" />
+      <sub name="gmacron" with="gmacron.ital" />
+      <sub name="h" with="h.ital" />
+      <sub name="hcaron" with="hcaron.ital" />
+      <sub name="hcedilla" with="hcedilla.ital" />
+      <sub name="hcircumflex" with="hcircumflex.ital" />
+      <sub name="hdieresis" with="hdieresis.ital" />
+      <sub name="hdotaccent" with="hdotaccent.ital" />
+      <sub name="hdotbelow" with="hdotbelow.ital" />
+      <sub name="hmacronbelow" with="hmacronbelow.ital" />
+      <sub name="i" with="i.ital" />
+      <sub name="iacute" with="iacute.ital" />
+      <sub name="ibreve" with="ibreve.ital" />
+      <sub name="icaron" with="icaron.ital" />
+      <sub name="icircumflex" with="icircumflex.ital" />
+      <sub name="idieresis" with="idieresis.ital" />
+      <sub name="idieresisacute" with="idieresisacute.ital" />
+      <sub name="idotbelow" with="idotbelow.ital" />
+      <sub name="idotless" with="idotless.ital" />
+      <sub name="igrave" with="igrave.ital" />
+      <sub name="ihookabove" with="ihookabove.ital" />
+      <sub name="imacron" with="imacron.ital" />
+      <sub name="itilde" with="itilde.ital" />
+      <sub name="j" with="j.ital" />
+      <sub name="jdotless" with="jdotless.ital" />
+      <sub name="k" with="k.ital" />
+      <sub name="kcaron" with="kcaron.ital" />
+      <sub name="kdotbelow" with="kdotbelow.ital" />
+      <sub name="kmacronbelow" with="kmacronbelow.ital" />
+      <sub name="l" with="l.ital" />
+      <sub name="lacute" with="lacute.ital" />
+      <sub name="ldotbelow" with="ldotbelow.ital" />
+      <sub name="ldotbelowmacron" with="ldotbelowmacron.ital" />
+      <sub name="lmacronbelow" with="lmacronbelow.ital" />
+      <sub name="m" with="m.ital" />
+      <sub name="macute" with="macute.ital" />
+      <sub name="mdotaccent" with="mdotaccent.ital" />
+      <sub name="mdotbelow" with="mdotbelow.ital" />
+      <sub name="n" with="n.ital" />
+      <sub name="nacute" with="nacute.ital" />
+      <sub name="ncaron" with="ncaron.ital" />
+      <sub name="ndotaccent" with="ndotaccent.ital" />
+      <sub name="ndotbelow" with="ndotbelow.ital" />
+      <sub name="ngrave" with="ngrave.ital" />
+      <sub name="nmacronbelow" with="nmacronbelow.ital" />
+      <sub name="ntilde" with="ntilde.ital" />
+      <sub name="p" with="p.ital" />
+      <sub name="pacute" with="pacute.ital" />
+      <sub name="pdotaccent" with="pdotaccent.ital" />
+      <sub name="q" with="q.ital" />
+      <sub name="r" with="r.ital" />
+      <sub name="racute" with="racute.ital" />
+      <sub name="rcaron" with="rcaron.ital" />
+      <sub name="rdotaccent" with="rdotaccent.ital" />
+      <sub name="rmacronbelow" with="rmacronbelow.ital" />
+      <sub name="s" with="s.ital" />
+      <sub name="sacute" with="sacute.ital" />
+      <sub name="sacutedotaccent" with="sacutedotaccent.ital" />
+      <sub name="scaron" with="scaron.ital" />
+      <sub name="scarondotaccent" with="scarondotaccent.ital" />
+      <sub name="scedilla" with="scedilla.ital" />
+      <sub name="scircumflex" with="scircumflex.ital" />
+      <sub name="scommaaccent" with="scommaaccent.ital" />
+      <sub name="sdotaccent" with="sdotaccent.ital" />
+      <sub name="sdotbelow" with="sdotbelow.ital" />
+      <sub name="sdotbelowdotaccent" with="sdotbelowdotaccent.ital" />
+      <sub name="u" with="u.ital" />
+      <sub name="uacute" with="uacute.ital" />
+      <sub name="ubreve" with="ubreve.ital" />
+      <sub name="ucaron" with="ucaron.ital" />
+      <sub name="ucircumflex" with="ucircumflex.ital" />
+      <sub name="udieresis" with="udieresis.ital" />
+      <sub name="udieresisacute" with="udieresisacute.ital" />
+      <sub name="udieresiscaron" with="udieresiscaron.ital" />
+      <sub name="udieresisgrave" with="udieresisgrave.ital" />
+      <sub name="udieresismacron" with="udieresismacron.ital" />
+      <sub name="udotbelow" with="udotbelow.ital" />
+      <sub name="ugrave" with="ugrave.ital" />
+      <sub name="uhookabove" with="uhookabove.ital" />
+      <sub name="uhorn" with="uhorn.ital" />
+      <sub name="uhornacute" with="uhornacute.ital" />
+      <sub name="uhorndotbelow" with="uhorndotbelow.ital" />
+      <sub name="uhorngrave" with="uhorngrave.ital" />
+      <sub name="uhornhookabove" with="uhornhookabove.ital" />
+      <sub name="uhorntilde" with="uhorntilde.ital" />
+      <sub name="uhungarumlaut" with="uhungarumlaut.ital" />
+      <sub name="umacron" with="umacron.ital" />
+      <sub name="umacrondieresis" with="umacrondieresis.ital" />
+      <sub name="uogonek" with="uogonek.ital" />
+      <sub name="uring" with="uring.ital" />
+      <sub name="utilde" with="utilde.ital" />
+      <sub name="utildeacute" with="utildeacute.ital" />
+      <sub name="v" with="v.ital" />
+      <sub name="vdotbelow" with="vdotbelow.ital" />
+      <sub name="vtilde" with="vtilde.ital" />
+      <sub name="w" with="w.ital" />
+      <sub name="wacute" with="wacute.ital" />
+      <sub name="wcircumflex" with="wcircumflex.ital" />
+      <sub name="wdieresis" with="wdieresis.ital" />
+      <sub name="wdotaccent" with="wdotaccent.ital" />
+      <sub name="wdotbelow" with="wdotbelow.ital" />
+      <sub name="wgrave" with="wgrave.ital" />
+      <sub name="wring" with="wring.ital" />
+      <sub name="x" with="x.ital" />
+      <sub name="xdieresis" with="xdieresis.ital" />
+      <sub name="xdotaccent" with="xdotaccent.ital" />
+      <sub name="y" with="y.ital" />
+      <sub name="yacute" with="yacute.ital" />
+      <sub name="ycircumflex" with="ycircumflex.ital" />
+      <sub name="ydieresis" with="ydieresis.ital" />
+      <sub name="ydotaccent" with="ydotaccent.ital" />
+      <sub name="ygrave" with="ygrave.ital" />
+      <sub name="yhookabove" with="yhookabove.ital" />
+      <sub name="ymacron" with="ymacron.ital" />
+      <sub name="yring" with="yring.ital" />
+      <sub name="ytilde" with="ytilde.ital" />
+      <sub name="z" with="z.ital" />
+      <sub name="zacute" with="zacute.ital" />
+      <sub name="zcaron" with="zcaron.ital" />
+      <sub name="zcircumflex" with="zcircumflex.ital" />
+      <sub name="zdotaccent" with="zdotaccent.ital" />
+      <sub name="zdotbelow" with="zdotbelow.ital" />
+      <sub name="zmacronbelow" with="zmacronbelow.ital" />
+    </rule>
+  </rules>
   <instances>
     <instance familyname="Annotation Mono" stylename="Thin" filename="instances/Thin.ufo">
       <location>
-        <dimension name="weight" xvalue="100"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="ExtraLight" filename="instances/ExtraLight.ufo">
       <location>
-        <dimension name="weight" xvalue="200"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Light" filename="instances/Light.ufo">
       <location>
-        <dimension name="weight" xvalue="300"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Regular" filename="instances/Regular.ufo">
       <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Medium" filename="instances/Medium.ufo">
       <location>
-        <dimension name="weight" xvalue="500"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="DemiBold" filename="instances/DemiBold.ufo">
       <location>
-        <dimension name="weight" xvalue="600"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Bold" filename="instances/Bold.ufo">
       <location>
-        <dimension name="weight" xvalue="700"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="ExtraBold" filename="instances/ExtraBold.ufo">
       <location>
-        <dimension name="weight" xvalue="800"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Black" filename="instances/Black.ufo">
       <location>
-        <dimension name="weight" xvalue="900"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="ExtraBlack" filename="instances/ExtraBlack.ufo">
       <location>
-        <dimension name="weight" xvalue="1000"/>
-        <dimension name="slant" xvalue="0"/>
+        <dimension name="Weight" xvalue="1000"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="0.500000"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Thin Oblique" filename="instances/Thin_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="100"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="ExtraLight Oblique" filename="instances/ExtraLight_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="200"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Light Oblique" filename="instances/Light_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="300"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Regular Oblique" filename="instances/Regular_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Medium Oblique" filename="instances/Medium_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="500"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="DemiBold Oblique" filename="instances/DemiBold_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="600"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Bold Oblique" filename="instances/Bold_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="700"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="ExtraBold Oblique" filename="instances/ExtraBold_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="800"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="Black Oblique" filename="instances/Black_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="900"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
       </location>
     </instance>
     <instance familyname="Annotation Mono" stylename="ExtraBlack Oblique" filename="instances/ExtraBlack_Oblique.ufo">
       <location>
-        <dimension name="weight" xvalue="1000"/>
-        <dimension name="slant" xvalue="-15"/>
+        <dimension name="Weight" xvalue="1000"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Thin Italic" filename="instances/Thin_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraLight Italic" filename="instances/ExtraLight_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Light Italic" filename="instances/Light_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Regular Italic" filename="instances/Regular_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Medium Italic" filename="instances/Medium_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="DemiBold Italic" filename="instances/DemiBold_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Bold Italic" filename="instances/Bold_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBold Italic" filename="instances/ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Black Italic" filename="instances/Black_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBlack Italic" filename="instances/ExtraBlack_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="1000"/>
+        <dimension name="Slant" xvalue="-15"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Thin Upright Italic" filename="instances/Thin_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraLight Upright Italic" filename="instances/ExtraLight_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Light Upright Italic" filename="instances/Light_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Regular Upright Italic" filename="instances/Regular_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Medium Upright Italic" filename="instances/Medium_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="DemiBold Upright Italic" filename="instances/DemiBold_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Bold Upright Italic" filename="instances/Bold_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBold Upright Italic" filename="instances/ExtraBold_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="Black Upright Italic" filename="instances/Black_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="Annotation Mono" stylename="ExtraBlack Upright Italic" filename="instances/ExtraBlack_Upright_Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="1000"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Cursive" xvalue="1"/>
       </location>
     </instance>
   </instances>

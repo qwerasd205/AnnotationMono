@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve.ital" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="idotless.ital"/>
+    <component base="breve" xOffset="-24.641016151377546" yOffset="20"/>
+  </outline>
+</glyph>
