@@ -7,7 +7,7 @@
    viewBox="0 0 640 400"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    sodipodi:docname="banner.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,13 +25,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:clip-to-page="true"
-     inkscape:zoom="1.1673876"
-     inkscape:cx="315.23377"
-     inkscape:cy="135.77324"
+     inkscape:zoom="1.2950517"
+     inkscape:cx="311.18449"
+     inkscape:cy="177.98517"
      inkscape:window-width="1120"
      inkscape:window-height="1088"
-     inkscape:window-x="280"
-     inkscape:window-y="45"
+     inkscape:window-x="275"
+     inkscape:window-y="39"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -85,7 +85,7 @@
        inkscape:transform-center-y="-8.994874"><tspan
          x="83.269531"
          y="138.40898"
-         id="tspan1">Annotation Mono</tspan></text>
+         id="tspan3">Annotation Mono</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#221133;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
@@ -96,31 +96,31 @@
          x="270.00708"
          y="155.35701"
          id="tspan19"><tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan35">float</tspan> <tspan
    style="fill:#3c87df;fill-opacity:1"
    id="tspan36">Q_rsqrt</tspan>( <tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan37">float</tspan> number ) {</tspan><tspan
          sodipodi:role="line"
          x="270.00708"
          y="175.35701"
          id="tspan20">    <tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan38">long</tspan> i;</tspan><tspan
          sodipodi:role="line"
          x="270.00708"
          y="195.35701"
          id="tspan21">    <tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan39">float</tspan> x2, y;</tspan><tspan
          sodipodi:role="line"
          x="270.00708"
          y="215.35701"
          id="tspan22">    <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @slnt=-0,wght=800';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'slnt' 0, 'wght' 800;fill:#1d8e14;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=900';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 900;fill:#1d8e14;fill-opacity:1"
    id="tspan43">const</tspan> <tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan40">float</tspan> threehalfs <tspan
    style="fill:#625970;fill-opacity:1"
    id="tspan46">=</tspan> <tspan
@@ -132,7 +132,7 @@
          id="tspan23" /><tspan
          sodipodi:role="line"
          x="270.00708"
-         y="255.35699"
+         y="255.35701"
          id="tspan24">    x2 = number <tspan
    style="fill:#625970;fill-opacity:1"
    id="tspan47">*</tspan> <tspan
@@ -148,7 +148,7 @@
          id="tspan26">    i  = <tspan
    style="fill:#625970;fill-opacity:1"
    id="tspan55">*</tspan> ( <tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan41">long</tspan> <tspan
    style="fill:#625970;fill-opacity:1"
    id="tspan48">*</tspan> ) <tspan
@@ -170,7 +170,7 @@
          id="tspan28">    y  = <tspan
    style="fill:#625970;fill-opacity:1"
    id="tspan56">*</tspan> ( <tspan
-   style="fill:#e26917;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500;fill:#e26917;fill-opacity:1"
    id="tspan42">float</tspan> <tspan
    style="fill:#625970;fill-opacity:1"
    id="tspan54">*</tspan> ) <tspan
@@ -195,7 +195,9 @@
    style="fill:#504b56;fill-opacity:1"
    id="tspan61"><tspan
    style="fill:#7c7788;fill-opacity:1"
-   id="tspan62">//	y  = y * ( threehalfs - ( x2 * y * y ) )</tspan>;</tspan></tspan><tspan
+   id="tspan62"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500"
+   id="tspan83">//	y  = y * ( threehalfs - ( x2 * y * </tspan>y ) )</tspan>;</tspan></tspan><tspan
          sodipodi:role="line"
          x="270.00708"
          y="395.35699"
@@ -246,7 +248,9 @@
          x="22.022501"
          y="116.8467"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500"
-         id="tspan10">Handwriting-style, monospace, friendly.</tspan></text>
+         id="tspan10">Handwriting-style, monospace, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-10,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -10, 'wght' 500"
+   id="tspan1">friendly</tspan>.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#221133;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
@@ -256,62 +260,59 @@
          sodipodi:role="line"
          x="22.405092"
          y="153.8513"
-         id="tspan66"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1">With the <tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
+         id="tspan66">Customizable <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=900';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 900"
-   id="tspan77">wght</tspan> and <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'slnt' -15, 'wght' 500"
-   id="tspan78">slnt</tspan></tspan><tspan
+   id="tspan77">weight</tspan> and</tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="173.8513"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan72">variable axes, you can</tspan><tspan
+         id="tspan67"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=0,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 0, 'slnt' -15, 'wght' 500"
+   id="tspan78">slant</tspan> and a set of nice</tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="193.8513"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan73">dial in just the right</tspan><tspan
+         id="tspan64">pleasant <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 500"
+   id="tspan79">italics</tspan> can be</tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="213.8513"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan74">look for your use case</tspan><tspan
+         id="tspan69">controlled by adjusting</tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="233.8513"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan70">of Annotation Mono.</tspan><tspan
+         id="tspan70">the variable axes, wght</tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="253.8513"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan79" /><tspan
+         id="tspan71">slnt and CRSV.</tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="273.85132"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan80">Weights vary from <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=100';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 100"
-   id="tspan83">Thin</tspan></tspan><tspan
+         id="tspan72" /><tspan
          sodipodi:role="line"
          x="22.405092"
          y="293.85132"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan81">to <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=1000';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 1000"
-   id="tspan84">ExtraBlack</tspan>, and the</tspan><tspan
+         id="tspan74">Dial in <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @CRSV=1,slnt=-15,wght=300';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'CRSV' 1, 'slnt' -15, 'wght' 300"
+   id="tspan80">exactly</tspan> how <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700"
+   id="tspan81">you</tspan></tspan><tspan
          sodipodi:role="line"
          x="22.405092"
          y="313.85132"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan82">slant angle can be set</tspan><tspan
-         sodipodi:role="line"
-         x="22.405092"
-         y="333.85132"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#333344;fill-opacity:1"
-         id="tspan86">from 0° to <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @slnt=-15,wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'slnt' -15, 'wght' 500"
-   id="tspan85">-15°</tspan>.</tspan></text>
+         id="tspan75">want <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Annotation Mono';-inkscape-font-specification:'Annotation Mono, @slnt=-10,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'slnt' -10, 'wght' 700"
+   id="tspan82">your text</tspan> to look!</tspan></text>
   </g>
 </svg>
