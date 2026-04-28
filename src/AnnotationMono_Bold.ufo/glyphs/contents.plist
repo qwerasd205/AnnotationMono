@@ -28,8 +28,6 @@
     <string>E_hookabove.glif</string>
     <key>Eng</key>
     <string>E_ng.glif</string>
-    <key>Eogonek</key>
-    <string>E_ogonek.glif</string>
     <key>Ezh</key>
     <string>E_zh.glif</string>
     <key>F</key>
@@ -78,8 +76,6 @@
     <string>O_horn.glif</string>
     <key>Ohornhookabove</key>
     <string>O_hornhookabove.glif</string>
-    <key>Oogonek</key>
-    <string>O_ogonek.glif</string>
     <key>P</key>
     <string>P_.glif</string>
     <key>Q</key>
@@ -106,8 +102,6 @@
     <string>U_horn.glif</string>
     <key>Uhornhookabove</key>
     <string>U_hornhookabove.glif</string>
-    <key>Uogonek</key>
-    <string>U_ogonek.glif</string>
     <key>V</key>
     <string>V_.glif</string>
     <key>W</key>
@@ -198,8 +192,6 @@
     <string>eight.small.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
-    <key>eogonek</key>
-    <string>eogonek.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
     <key>euro</key>
@@ -294,8 +286,6 @@
     <string>imacron.glif</string>
     <key>imacron.ital</key>
     <string>imacron.ital.glif</string>
-    <key>iogonek.ital</key>
-    <string>iogonek.ital.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>itilde.ital</key>
@@ -374,8 +364,6 @@
     <string>one.onum.glif</string>
     <key>one.small</key>
     <string>one.small.glif</string>
-    <key>oogonek</key>
-    <string>oogonek.glif</string>
     <key>p</key>
     <string>p.glif</string>
     <key>parenleft</key>

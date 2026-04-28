@@ -198,8 +198,6 @@
     <string>eight.small.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
-    <key>eogonek</key>
-    <string>eogonek.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
     <key>euro</key>
@@ -294,8 +292,6 @@
     <string>imacron.glif</string>
     <key>imacron.ital</key>
     <string>imacron.ital.glif</string>
-    <key>iogonek.ital</key>
-    <string>iogonek.ital.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>itilde.ital</key>
