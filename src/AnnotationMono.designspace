@@ -370,7 +370,9 @@
       <sub name="abrevetilde" with="abrevetilde.ital" />
       <sub name="acaron" with="acaron.ital" />
       <sub name="acircumflex" with="acircumflex.ital" />
+      <sub name="acircumflexacute" with="acircumflexacute.ital" />
       <sub name="acircumflexdotbelow" with="acircumflexdotbelow.ital" />
+      <sub name="acircumflexgrave" with="acircumflexgrave.ital" />
       <sub name="acircumflexhookabove" with="acircumflexhookabove.ital" />
       <sub name="acircumflextilde" with="acircumflextilde.ital" />
       <sub name="adieresis" with="adieresis.ital" />
@@ -384,8 +386,10 @@
       <sub name="aogonek" with="aogonek.ital" />
       <sub name="aring" with="aring.ital" />
       <sub name="aringacute" with="aringacute.ital" />
+      <sub name="astroke" with="astroke.ital" />
       <sub name="atilde" with="atilde.ital" />
       <sub name="b" with="b.ital" />
+      <sub name="bdotaccent" with="bdotaccent.ital" />
       <sub name="bdotbelow" with="bdotbelow.ital" />
       <sub name="bmacronbelow" with="bmacronbelow.ital" />
       <sub name="c" with="c.ital" />
@@ -395,9 +399,14 @@
       <sub name="ccedillaacute" with="ccedillaacute.ital" />
       <sub name="ccircumflex" with="ccircumflex.ital" />
       <sub name="cdotaccent" with="cdotaccent.ital" />
+      <sub name="cstroke" with="cstroke.ital" />
       <sub name="d" with="d.ital" />
+      <sub name="dcaron" with="dcaron.ital" />
       <sub name="dcedilla" with="dcedilla.ital" />
+      <sub name="dcroat" with="dcroat.ital" />
+      <sub name="ddotaccent" with="ddotaccent.ital" />
       <sub name="ddotbelow" with="ddotbelow.ital" />
+      <sub name="dmacronbelow" with="dmacronbelow.ital" />
       <sub name="e" with="e.ital" />
       <sub name="eacute" with="eacute.ital" />
       <sub name="ebreve" with="ebreve.ital" />
@@ -405,7 +414,9 @@
       <sub name="ecedilla" with="ecedilla.ital" />
       <sub name="ecedillabreve" with="ecedillabreve.ital" />
       <sub name="ecircumflex" with="ecircumflex.ital" />
+      <sub name="ecircumflexacute" with="ecircumflexacute.ital" />
       <sub name="ecircumflexdotbelow" with="ecircumflexdotbelow.ital" />
+      <sub name="ecircumflexgrave" with="ecircumflexgrave.ital" />
       <sub name="ecircumflexhookabove" with="ecircumflexhookabove.ital" />
       <sub name="ecircumflextilde" with="ecircumflextilde.ital" />
       <sub name="edieresis" with="edieresis.ital" />
@@ -425,9 +436,12 @@
       <sub name="gbreve" with="gbreve.ital" />
       <sub name="gcaron" with="gcaron.ital" />
       <sub name="gcircumflex" with="gcircumflex.ital" />
+      <sub name="gcommaaccent" with="gcommaaccent.ital" />
       <sub name="gdotaccent" with="gdotaccent.ital" />
       <sub name="gmacron" with="gmacron.ital" />
+      <sub name="gstroke" with="gstroke.ital" />
       <sub name="h" with="h.ital" />
+      <sub name="hbar" with="hbar.ital" />
       <sub name="hcaron" with="hcaron.ital" />
       <sub name="hcedilla" with="hcedilla.ital" />
       <sub name="hcircumflex" with="hcircumflex.ital" />
@@ -442,23 +456,36 @@
       <sub name="icircumflex" with="icircumflex.ital" />
       <sub name="idieresis" with="idieresis.ital" />
       <sub name="idieresisacute" with="idieresisacute.ital" />
+      <sub name="idotaccent" with="idotaccent.ital" />
       <sub name="idotbelow" with="idotbelow.ital" />
       <sub name="idotless" with="idotless.ital" />
       <sub name="igrave" with="igrave.ital" />
       <sub name="ihookabove" with="ihookabove.ital" />
       <sub name="imacron" with="imacron.ital" />
+      <sub name="iogonek" with="iogonek.ital" />
+      <sub name="istroke" with="istroke.ital" />
       <sub name="itilde" with="itilde.ital" />
       <sub name="j" with="j.ital" />
+      <sub name="jcaron" with="jcaron.ital" />
+      <sub name="jcircumflex" with="jcircumflex.ital" />
       <sub name="jdotless" with="jdotless.ital" />
       <sub name="k" with="k.ital" />
+      <sub name="kacute" with="kacute.ital" />
       <sub name="kcaron" with="kcaron.ital" />
+      <sub name="kcommaaccent" with="kcommaaccent.ital" />
       <sub name="kdotbelow" with="kdotbelow.ital" />
       <sub name="kmacronbelow" with="kmacronbelow.ital" />
       <sub name="l" with="l.ital" />
       <sub name="lacute" with="lacute.ital" />
+      <sub name="lbar" with="lbar.ital" />
+      <sub name="lcaron" with="lcaron.ital" />
+      <sub name="lcommaaccent" with="lcommaaccent.ital" />
+      <sub name="ldot" with="ldot.ital" />
       <sub name="ldotbelow" with="ldotbelow.ital" />
       <sub name="ldotbelowmacron" with="ldotbelowmacron.ital" />
       <sub name="lmacronbelow" with="lmacronbelow.ital" />
+      <sub name="lmiddletilde" with="lmiddletilde.ital" />
+      <sub name="lslash" with="lslash.ital" />
       <sub name="m" with="m.ital" />
       <sub name="macute" with="macute.ital" />
       <sub name="mdotaccent" with="mdotaccent.ital" />
@@ -466,6 +493,7 @@
       <sub name="n" with="n.ital" />
       <sub name="nacute" with="nacute.ital" />
       <sub name="ncaron" with="ncaron.ital" />
+      <sub name="ncommaaccent" with="ncommaaccent.ital" />
       <sub name="ndotaccent" with="ndotaccent.ital" />
       <sub name="ndotbelow" with="ndotbelow.ital" />
       <sub name="ngrave" with="ngrave.ital" />
@@ -478,7 +506,10 @@
       <sub name="r" with="r.ital" />
       <sub name="racute" with="racute.ital" />
       <sub name="rcaron" with="rcaron.ital" />
+      <sub name="rcommaaccent" with="rcommaaccent.ital" />
       <sub name="rdotaccent" with="rdotaccent.ital" />
+      <sub name="rdotbelow" with="rdotbelow.ital" />
+      <sub name="rdotbelowmacron" with="rdotbelowmacron.ital" />
       <sub name="rmacronbelow" with="rmacronbelow.ital" />
       <sub name="s" with="s.ital" />
       <sub name="sacute" with="sacute.ital" />
@@ -536,6 +567,7 @@
       <sub name="ycircumflex" with="ycircumflex.ital" />
       <sub name="ydieresis" with="ydieresis.ital" />
       <sub name="ydotaccent" with="ydotaccent.ital" />
+      <sub name="ydotbelow" with="ydotbelow.ital" />
       <sub name="ygrave" with="ygrave.ital" />
       <sub name="yhookabove" with="yhookabove.ital" />
       <sub name="ymacron" with="ymacron.ital" />
