@@ -80,6 +80,8 @@
         --unvisited-color: #27f;
         --visited-color: #86e;
         --link-color: var(--unvisited-color);
+
+        accent-color: #222;
       }
 
       @media (prefers-color-scheme: dark) {
@@ -301,6 +303,19 @@
         }
       }
 
+      #specimen-demo-controls {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1ex;
+
+        span {
+          display: inline-grid;
+          grid-template-rows: 2em 1fr;
+        }
+
+        margin-bottom: 1em;
+      }
+
       h2 {
         margin-top: 1.5em;
       }
@@ -314,13 +329,29 @@
         font-feature-settings: "ss01" 1;
       }
 
+      .ss02 {
+        font-feature-settings: "ss02" 1;
+      }
+
       .onum {
         font-feature-settings: "onum" 1;
+      }
+
+      .oblique {
+        font-variation-settings: "slnt" -15, "CRSV" 0, "wght" 500;
+      }
+
+      .upright-italic {
+        font-variation-settings: "slnt" 0, "CRSV" 1, "wght" 500;
+      }
+
+      i, .italic {
+        font-variation-settings: "slnt" -15, "CRSV" 1, "wght" 500;
       }
     </style>
   </head>
   <body>
-    <h1>Annotation Mono <i style="font-weight: 400; font-variation-settings: 'wght' 400;">v0.2</i></h1>
+    <h1>Annotation Mono <i style="font-weight: 400; font-variation-settings: 'wght' 400;">v0.3</i></h1>
     <p>
       A lovingly crafted handwriting-style monospace font.<br />
       Oh yeah... and it's
@@ -350,13 +381,38 @@
 
     <h2>Variable Axes</h2>
     <p>
-      Annotation Mono features two variable axes, <b>wght</b> (weight) and
-      <i>slnt</i> (slant).
+      Annotation Mono features three variable axes:
+    </p>
+    <ul>
+      <li><b>wght</b> (weight)</li>
+      <li><span class="oblique">slnt</span> (slant)</li>
+      <li><i>CRSV</i> (<span class="upright-italic">cursive</span>)</li>
+    </ul>
+    <p>
+      The weight axis allows fine-grained selection of text weight from Thin
+      (100) to ExtraBlack (1000), and with the slant axis, an exact pitch angle
+      can be chosen from Upright at 0° to Oblique at -15°.
     </p>
     <p>
-      The weight axis allows fine-grained selection of text weight from Thin to
-      ExtraBlack, and with the slant axis, an exact pitch angle can be chosen
-      from Upright at 0° to Oblique at -15°.
+      The CRSV axis controls how the change from regular ("roman") and cursive
+      forms for the letters occurs. At the default value of 0.5, the change is
+      made once the slnt value reaches -15. However, if CRSV is set to 0 then
+      the cursive forms will never be used, and if it's set to 1 then they will
+      always be used.
+    </p>
+    <p>
+      This allows for four distinct styles of text at any weight:
+    </p>
+    <ul>
+      <li>Regular (slnt 0)</li>
+      <li class="italic">Italic (slnt -15)</li>
+      <li class="oblique">Oblique (slnt -15, CRSV 0)</li>
+      <li class="upright-italic">Upright Italic (slnt 0, CRSV 1)</li>
+    </ul>
+
+    <p>
+      Click anywhere on the demo below to toggle CRSV
+      between 0 and 1 for the floating pieces of text.
     </p>
 
     <table style="border-spacing: 1ch">
@@ -420,7 +476,21 @@
       Latin-based languages -- 377 according to
       <a href="https://github.com/googlefonts/shaperglot">Shaperglot</a>.
     </p>
-    <div class="chars specimen">
+    <div class="chars specimen" id="specimen-demo">
+      <div id="specimen-demo-controls">
+        <span>
+          <label for="wght-control" id="wght-label">wght 400</label>
+          <input id="wght-control" type="range" min="100" max="1000" value="400">
+        </span>
+        <span>
+          <label for="slnt-control" id="slnt-label">slnt 0</label>
+          <input id="slnt-control" type="range" min="-15" max="0" value="0" step="0.1">
+        </span>
+        <span>
+          <label for="crsv-control" id="crsv-label">CRSV 0.5</label>
+          <input id="crsv-control" type="range" min="0" max="1" value="0.5" step="0.5">
+        </span>
+      </div>
       <span> </span><span>!</span><span>"</span><span>#</span><span>$</span
       ><span>%</span><span>&</span><span>'</span><span>(</span><span>)</span
       ><span>*</span><span>+</span><span>,</span><span>-</span><span>.</span
@@ -600,6 +670,21 @@ Ligatures for &lt;= and &gt;= are available by enabling Stylistic Set 01.
  &gt;= :: <span class="ss01">&gt;=</span>
 </pre>
 
+    <h2>Character Variants</h2>
+    <p>Alternative versions of some characters.</p>
+    <pre class="specimen">
+<b>Non-loopy italics (ss02)</b>
+You might find the loopy cursive italic forms hard to read,
+but don't just want to use the oblique. Well you're in luck!
+By enabling Stylistic Set 2 (ss02) the italic forms will be
+swapped for less loopy ones which should improve readability.
+ <span class="italic">fig jelly</span> Default
+ <span class="italic ss02">fig jelly</span> ss02
+These are also accessible as individual character variants
+by enabling cv01 through cv05 to apply the change to each
+of 'f', 'g', 'j', 'l', and 'y' respectively.
+</pre>
+
     <h2>Other OpenType Features</h2>
     <p>Other features provided by Annotation Mono.</p>
     <pre class="specimen">
@@ -615,7 +700,7 @@ Old-style numerals blend better with lowercase text.
     <script>
       const floater_demo = document.getElementById("floater-demo");
       const floaters = [];
-      for (let c of "Annotation Mono/<3/123/ABC/Variable/Slant/Weight/Qwerasd/v0.2".split(
+      for (let c of "Annotation Mono/<3/123/ABC/Variable/Slant/Weight/Qwerasd/v0.3".split(
         "/",
       )) {
         const el = document.createElement("span");
@@ -638,6 +723,8 @@ Old-style numerals blend better with lowercase text.
         x1: 0,
         y1: 0,
       };
+
+      let cursive = false;
 
       let t = 0;
       let dt = 0;
@@ -703,7 +790,7 @@ Old-style numerals blend better with lowercase text.
             if (dt <= 0) {
               const wght = 100 + y * 900;
               const slnt = x * -15;
-              f.el.style = `font-variation-settings: "wght" ${wght}, "slnt" ${slnt}; top: ${y * 100}%; left: ${x * 100}%`;
+              f.el.style = `font-variation-settings: "wght" ${wght}, "slnt" ${slnt}, "CRSV" ${+cursive}; top: ${y * 100}%; left: ${x * 100}%`;
             }
           }
         }
@@ -723,6 +810,31 @@ Old-style numerals blend better with lowercase text.
         mouse.x1 = e.offsetX / bounds.width;
         mouse.y1 = e.offsetY / bounds.height;
       });
+      floater_demo.addEventListener("click", e => {
+        cursive = !cursive;
+      });
+
+      const specimen_demo = document.getElementById("specimen-demo");
+      const wght_ctrl = document.getElementById("wght-control");
+      const wght_labl = document.getElementById("wght-label");
+      const slnt_ctrl = document.getElementById("slnt-control");
+      const slnt_labl = document.getElementById("slnt-label");
+      const crsv_ctrl = document.getElementById("crsv-control");
+      const crsv_labl = document.getElementById("crsv-label");
+
+      const updateSpecimenDemo = () => {
+        wght_labl.innerText = `wght ${wght_ctrl.value}`;
+        slnt_labl.innerText = `slnt ${slnt_ctrl.value}`;
+        crsv_labl.innerText = `CRSV ${crsv_ctrl.value}`;
+
+        specimen_demo.style = `font-variation-settings: "wght" ${wght_ctrl.value}, "slnt" ${slnt_ctrl.value}, "CRSV" ${crsv_ctrl.value}`;
+      }
+
+      wght_ctrl.addEventListener("input", updateSpecimenDemo);
+      slnt_ctrl.addEventListener("input", updateSpecimenDemo);
+      crsv_ctrl.addEventListener("input", updateSpecimenDemo);
+
+      updateSpecimenDemo();
     </script>
   </body>
 </html>
