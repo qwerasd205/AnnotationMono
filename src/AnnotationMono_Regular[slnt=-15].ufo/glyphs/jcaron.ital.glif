@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcaron.ital" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="jdotless.ital"/>
+    <component base="caroncomb" xOffset="496.41016151377545" yOffset="-200"/>
+  </outline>
+</glyph>

@@ -624,6 +624,8 @@
     <string>bar.glif</string>
     <key>bdotaccent</key>
     <string>bdotaccent.glif</string>
+    <key>bdotaccent.ital</key>
+    <string>bdotaccent.ital.glif</string>
     <key>bdotbelow</key>
     <string>bdotbelow.glif</string>
     <key>bdotbelow.ital</key>
@@ -702,12 +704,16 @@
     <string>d.ital.glif</string>
     <key>dcaron</key>
     <string>dcaron.glif</string>
+    <key>dcaron.ital</key>
+    <string>dcaron.ital.glif</string>
     <key>dcedilla</key>
     <string>dcedilla.glif</string>
     <key>dcedilla.ital</key>
     <string>dcedilla.ital.glif</string>
     <key>ddotaccent</key>
     <string>ddotaccent.glif</string>
+    <key>ddotaccent.ital</key>
+    <string>ddotaccent.ital.glif</string>
     <key>ddotbelow</key>
     <string>ddotbelow.glif</string>
     <key>ddotbelow.ital</key>
@@ -730,6 +736,8 @@
     <string>divide.glif</string>
     <key>dmacronbelow</key>
     <string>dmacronbelow.glif</string>
+    <key>dmacronbelow.ital</key>
+    <string>dmacronbelow.ital.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
     <key>dotaccent</key>
@@ -906,6 +914,12 @@
     <string>gcircumflex.ital.plain.glif</string>
     <key>gcommaaccent</key>
     <string>gcommaaccent.glif</string>
+    <key>gcommaaccent.cv01</key>
+    <string>gcommaaccent.cv01.glif</string>
+    <key>gcommaaccent.ital</key>
+    <string>gcommaaccent.ital.glif</string>
+    <key>gcommaaccent.ital.plain</key>
+    <string>gcommaaccent.ital.plain.glif</string>
     <key>gdotaccent</key>
     <string>gdotaccent.glif</string>
     <key>gdotaccent.cv01</key>
@@ -1034,6 +1048,8 @@
     <string>imacron.glif</string>
     <key>imacron.ital</key>
     <string>imacron.ital.glif</string>
+    <key>iogonek.ital</key>
+    <string>iogonek.ital.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>itilde.ital</key>
@@ -1056,12 +1072,16 @@
     <string>k.ital.glif</string>
     <key>kacute</key>
     <string>kacute.glif</string>
+    <key>kacute.ital</key>
+    <string>kacute.ital.glif</string>
     <key>kcaron</key>
     <string>kcaron.glif</string>
     <key>kcaron.ital</key>
     <string>kcaron.ital.glif</string>
     <key>kcommaaccent</key>
     <string>kcommaaccent.glif</string>
+    <key>kcommaaccent.ital</key>
+    <string>kcommaaccent.ital.glif</string>
     <key>kdotbelow</key>
     <string>kdotbelow.glif</string>
     <key>kdotbelow.ital</key>
@@ -1084,12 +1104,26 @@
     <string>lacute.ital.glif</string>
     <key>lacute.ital.plain</key>
     <string>lacute.ital.plain.glif</string>
+    <key>lbar.ital</key>
+    <string>lbar.ital.glif</string>
     <key>lcaron</key>
     <string>lcaron.glif</string>
+    <key>lcaron.ital</key>
+    <string>lcaron.ital.glif</string>
+    <key>lcaron.ital.plain</key>
+    <string>lcaron.ital.plain.glif</string>
     <key>lcommaaccent</key>
     <string>lcommaaccent.glif</string>
+    <key>lcommaaccent.ital</key>
+    <string>lcommaaccent.ital.glif</string>
+    <key>lcommaaccent.ital.plain</key>
+    <string>lcommaaccent.ital.plain.glif</string>
     <key>ldot</key>
     <string>ldot.glif</string>
+    <key>ldot.ital</key>
+    <string>ldot.ital.glif</string>
+    <key>ldot.ital.plain</key>
+    <string>ldot.ital.plain.glif</string>
     <key>ldotbelow</key>
     <string>ldotbelow.glif</string>
     <key>ldotbelow.ital</key>
@@ -1124,6 +1158,8 @@
     <string>lmacronbelow.ital.glif</string>
     <key>lmacronbelow.ital.plain</key>
     <string>lmacronbelow.ital.plain.glif</string>
+    <key>lmiddletilde.ital</key>
+    <string>lmiddletilde.ital.glif</string>
     <key>longs</key>
     <string>longs.glif</string>
     <key>longsdotaccent</key>
@@ -1132,6 +1168,10 @@
     <string>lowlinecomb.glif</string>
     <key>lslash</key>
     <string>lslash.glif</string>
+    <key>lslash.ital</key>
+    <string>lslash.ital.glif</string>
+    <key>lslash.ital.plain</key>
+    <string>lslash.ital.plain.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>m.ital</key>
@@ -1170,6 +1210,8 @@
     <string>ncaron.ital.glif</string>
     <key>ncommaaccent</key>
     <string>ncommaaccent.glif</string>
+    <key>ncommaaccent.ital</key>
+    <string>ncommaaccent.ital.glif</string>
     <key>ndotaccent</key>
     <string>ndotaccent.glif</string>
     <key>ndotaccent.ital</key>
@@ -1332,14 +1374,20 @@
     <string>rcaron.ital.glif</string>
     <key>rcommaaccent</key>
     <string>rcommaaccent.glif</string>
+    <key>rcommaaccent.ital</key>
+    <string>rcommaaccent.ital.glif</string>
     <key>rdotaccent</key>
     <string>rdotaccent.glif</string>
     <key>rdotaccent.ital</key>
     <string>rdotaccent.ital.glif</string>
     <key>rdotbelow</key>
     <string>rdotbelow.glif</string>
+    <key>rdotbelow.ital</key>
+    <string>rdotbelow.ital.glif</string>
     <key>rdotbelowmacron</key>
     <string>rdotbelowmacron.glif</string>
+    <key>rdotbelowmacron.ital</key>
+    <string>rdotbelowmacron.ital.glif</string>
     <key>registered</key>
     <string>registered.glif</string>
     <key>rightanglebracket.math</key>
@@ -1650,6 +1698,10 @@
     <string>ydotaccent.ital.plain.glif</string>
     <key>ydotbelow</key>
     <string>ydotbelow.glif</string>
+    <key>ydotbelow.ital</key>
+    <string>ydotbelow.ital.glif</string>
+    <key>ydotbelow.ital.plain</key>
+    <string>ydotbelow.ital.plain.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
     <key>ygrave</key>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcommaaccent.ital.plain" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="l.ital.plain"/>
+    <component base="commaaccentcomb" xOffset="508"/>
+  </outline>
+</glyph>

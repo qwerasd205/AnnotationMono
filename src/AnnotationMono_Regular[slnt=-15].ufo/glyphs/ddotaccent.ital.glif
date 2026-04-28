@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddotaccent.ital" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="d.ital"/>
+    <component base="dotaccentcomb" xOffset="403.73066958946424" yOffset="-210"/>
+  </outline>
+</glyph>

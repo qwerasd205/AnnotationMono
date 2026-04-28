@@ -3,7 +3,7 @@
   <advance width="500"/>
   <anchor x="200" y="0" name="bottom"/>
   <anchor x="163" y="-9" name="cedilla"/>
-  <anchor x="355" y="1" name="ogonek"/>
+  <anchor x="365" y="1" name="ogonek"/>
   <anchor x="361" y="600" name="top"/>
   <outline>
     <contour>

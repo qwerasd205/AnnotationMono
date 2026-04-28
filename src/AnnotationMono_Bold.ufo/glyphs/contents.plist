@@ -228,6 +228,10 @@
     <string>g.glif</string>
     <key>gcommaaccent</key>
     <string>gcommaaccent.glif</string>
+    <key>gcommaaccent.ital</key>
+    <string>gcommaaccent.ital.glif</string>
+    <key>gcommaaccent.ital.plain</key>
+    <string>gcommaaccent.ital.plain.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
     <key>glottalstop</key>
@@ -290,6 +294,8 @@
     <string>imacron.glif</string>
     <key>imacron.ital</key>
     <string>imacron.ital.glif</string>
+    <key>iogonek.ital</key>
+    <string>iogonek.ital.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>itilde.ital</key>
@@ -308,12 +314,18 @@
     <string>k.glif</string>
     <key>kcommaaccent</key>
     <string>kcommaaccent.glif</string>
+    <key>kcommaaccent.ital</key>
+    <string>kcommaaccent.ital.glif</string>
     <key>kgreenlandic</key>
     <string>kgreenlandic.glif</string>
     <key>l</key>
     <string>l.glif</string>
     <key>lcommaaccent</key>
     <string>lcommaaccent.glif</string>
+    <key>lcommaaccent.ital</key>
+    <string>lcommaaccent.ital.glif</string>
+    <key>lcommaaccent.ital.plain</key>
+    <string>lcommaaccent.ital.plain.glif</string>
     <key>leftanglebracket.math</key>
     <string>leftanglebracket.math.glif</string>
     <key>less</key>
@@ -334,6 +346,8 @@
     <string>n.ital.glif</string>
     <key>ncommaaccent</key>
     <string>ncommaaccent.glif</string>
+    <key>ncommaaccent.ital</key>
+    <string>ncommaaccent.ital.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>nine.onum</key>
@@ -396,6 +410,8 @@
     <string>r.ital.glif</string>
     <key>rcommaaccent</key>
     <string>rcommaaccent.glif</string>
+    <key>rcommaaccent.ital</key>
+    <string>rcommaaccent.ital.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
     <key>s</key>

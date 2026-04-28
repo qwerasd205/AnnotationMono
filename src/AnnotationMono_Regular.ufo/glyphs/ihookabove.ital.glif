@@ -2,7 +2,7 @@
 <glyph name="ihookabove.ital" format="2">
   <advance width="500"/>
   <outline>
-    <component base="idotless"/>
+    <component base="idotless.ital"/>
     <component base="hookabovecomb" xOffset="480" yOffset="-180"/>
   </outline>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="itilde.ital" format="2">
   <advance width="500"/>
   <outline>
-    <component base="idotless"/>
+    <component base="idotless.ital"/>
     <component base="tilde" xOffset="-20" yOffset="-10"/>
   </outline>
 </glyph>

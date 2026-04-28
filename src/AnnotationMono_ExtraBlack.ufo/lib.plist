@@ -212,6 +212,27 @@
       <string>j.ital.plain</string>
       <string>l.ital.plain</string>
       <string>y.ital.plain</string>
+      <string>bdotaccent.ital</string>
+      <string>ddotaccent.ital</string>
+      <string>kacute.ital</string>
+      <string>kcommaaccent.ital</string>
+      <string>lcommaaccent.ital</string>
+      <string>lcommaaccent.ital.plain</string>
+      <string>ncommaaccent.ital</string>
+      <string>rcommaaccent.ital</string>
+      <string>rdotbelow.ital</string>
+      <string>rdotbelowmacron.ital</string>
+      <string>lbar.ital</string>
+      <string>ldot.ital</string>
+      <string>ldot.ital.plain</string>
+      <string>lmiddletilde.ital</string>
+      <string>lslash.ital</string>
+      <string>lslash.ital.plain</string>
+      <string>gcommaaccent.ital</string>
+      <string>gcommaaccent.ital.plain</string>
+      <string>dcaron.ital</string>
+      <string>lcaron.ital.plain</string>
+      <string>lcaron.ital</string>
     </array>
     <key>ufoProcessor.fullDesignspaceLocation</key>
     <array>

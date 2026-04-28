@@ -11,11 +11,6 @@
         <key>Regular</key>
         <string>default</string>
       </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

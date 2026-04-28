@@ -2,7 +2,7 @@
 <glyph name="imacron.ital" format="2">
   <advance width="500"/>
   <outline>
-    <component base="idotless"/>
+    <component base="idotless.ital"/>
     <component base="macron" xOffset="-65.35898384862246" yOffset="-20"/>
   </outline>
 </glyph>

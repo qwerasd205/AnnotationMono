@@ -45,11 +45,6 @@ for ufo in src_dir.glob("*.ufo"):
     # Iterate through the basic multilingual plane and figure out
     # which characters we have the base glyphs to precompose.
     for i in range(65536):
-        if (chr(i) in unis and font[unis[chr(i)]].note != AUTOGEN_NOTE) or (
-            chr(i) in reg_unis and regular[reg_unis[chr(i)]].note != AUTOGEN_NOTE
-        ):
-            continue
-
         seq = ud.normalize("NFD", chr(i))
 
         if len(seq) < 2:
@@ -67,6 +62,11 @@ for ufo in src_dir.glob("*.ufo"):
             for alt_base in base_alternates:
                 suffix = alt_base[len(base_name):]
                 out_name = name + suffix
+
+                if (out_name in regular and regular[out_name].note != AUTOGEN_NOTE) or (
+                    out_name in font and font[out_name].note != AUTOGEN_NOTE
+                ):
+                    continue
 
                 components = [Component(alt_base)]
 
