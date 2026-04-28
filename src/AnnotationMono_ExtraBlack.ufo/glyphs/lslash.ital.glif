@@ -9,7 +9,7 @@
       <array>
         <dict>
           <key>base</key>
-          <string>l.ital</string>
+          <string>l.ital.plain</string>
           <key>location</key>
           <dict/>
         </dict>
@@ -24,7 +24,7 @@
           <key>transformation</key>
           <dict>
             <key>rotation</key>
-            <integer>0</integer>
+            <real>29.999999999999996</real>
             <key>scaleX</key>
             <integer>1</integer>
             <key>scaleY</key>
@@ -38,9 +38,9 @@
             <key>tCenterY</key>
             <integer>300</integer>
             <key>translateX</key>
-            <integer>5</integer>
+            <integer>-14</integer>
             <key>translateY</key>
-            <integer>264</integer>
+            <integer>0</integer>
           </dict>
         </dict>
       </array>
