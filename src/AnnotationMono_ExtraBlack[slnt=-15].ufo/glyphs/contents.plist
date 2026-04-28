@@ -944,6 +944,8 @@
     <string>lslash.glif</string>
     <key>lslash.ital</key>
     <string>lslash.ital.glif</string>
+    <key>lslash.ital.plain</key>
+    <string>lslash.ital.plain.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>m.ital</key>
