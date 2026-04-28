@@ -654,6 +654,8 @@
     <string>ihookabove.ital.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
+    <key>ij.ital</key>
+    <string>ij.ital.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
     <key>imacron.ital</key>
