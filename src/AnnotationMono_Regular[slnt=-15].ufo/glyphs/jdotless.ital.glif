@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless.ital" format="2">
   <advance width="500"/>
-  <anchor x="337" y="400" name="top"/>
+  <anchor x="175" y="-100" name="bottom"/>
   <anchor x="168" y="-113" name="cedilla"/>
   <anchor x="177" y="-112" name="ogonek"/>
-  <anchor x="175" y="-100" name="bottom"/>
+  <anchor x="337" y="400" name="top"/>
   <outline>
     <contour>
       <point x="346" y="15" type="curve" smooth="yes"/>

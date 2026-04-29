@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="h.ital" format="2">
   <advance width="500"/>
-  <anchor x="270" y="600" name="top"/>
-  <anchor x="77" y="-8" name="cedilla"/>
   <anchor x="240" y="0" name="bottom"/>
+  <anchor x="77" y="-8" name="cedilla"/>
+  <anchor x="270" y="600" name="top"/>
   <anchor x="417" y="-4" name="ogonek"/>
   <outline>
     <contour>

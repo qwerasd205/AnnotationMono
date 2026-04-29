@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.ital.plain" format="2">
   <advance width="500"/>
-  <anchor x="331" y="400" name="top"/>
+  <anchor x="158" y="-100" name="bottom"/>
   <anchor x="151" y="-113" name="cedilla"/>
   <anchor x="160" y="-112" name="ogonek"/>
-  <anchor x="158" y="-100" name="bottom"/>
+  <anchor x="331" y="400" name="top"/>
   <outline>
     <contour>
       <point x="86" y="0" type="curve" smooth="yes"/>
