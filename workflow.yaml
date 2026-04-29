@@ -6,7 +6,7 @@ steps:
   fontInfo:
     familyName: Annotation Mono
     versionMajor: 0
-    versionMinor: 2
+    versionMinor: 4
 
 - filter: decompose-composites
   onlyVariableComposites: true
