@@ -3,8 +3,6 @@
   <advance width="500"/>
   <unicode hex="0069"/>
   <anchor x="250" y="600" name="top"/>
-  <anchor x="250" y="0" name="cedilla"/>
-  <anchor x="250" y="0" name="ogonek"/>
   <anchor x="250" y="0" name="bottom"/>
   <outline>
     <contour>
@@ -23,15 +21,4 @@
     </contour>
     <component base="idotless"/>
   </outline>
-  <lib>
-    <dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Bold</key>
-        <string>weight=700</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

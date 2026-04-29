@@ -76,7 +76,12 @@ for ufo in src_dir.glob("*.ufo"):
                     matches = []
                     for cmp in components[::-1]:
                         o = font[cmp.baseGlyph]
-                        for a in o.anchors:
+                        anchors = list(o.anchors)
+                        for cpn in o.components:
+                            for a in font[cpn.baseGlyph].anchors:
+                                anchors.append(a)
+
+                        for a in anchors:
                             for ca in comb.anchors:
                                 if ca.name == f"_{a.name}":
                                     matches.append(

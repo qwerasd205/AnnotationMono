@@ -3,9 +3,7 @@
   <advance width="500"/>
   <unicode hex="0069"/>
   <anchor x="360.7695154586736" y="600" name="top"/>
-  <anchor x="200.0" y="0" name="cedilla"/>
-  <anchor x="200.0" y="0" name="ogonek"/>
-  <anchor x="200.0" y="0" name="bottom"/>
+  <anchor x="200" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="400.94127521877056" y="526" type="curve" smooth="yes"/>

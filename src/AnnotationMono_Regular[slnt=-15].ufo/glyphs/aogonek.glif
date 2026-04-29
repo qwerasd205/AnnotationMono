@@ -8,6 +8,6 @@ If this note is removed or altered then future runs will not update this, even i
 </note>
   <outline>
     <component base="a"/>
-    <component base="ogonekcomb" xOffset="660.1961524227066" yOffset="-3.0"/>
+    <component base="ogonekcomb" xOffset="682" yOffset="-5"/>
   </outline>
 </glyph>

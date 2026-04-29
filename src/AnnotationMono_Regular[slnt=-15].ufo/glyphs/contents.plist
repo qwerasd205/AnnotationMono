@@ -818,6 +818,8 @@
     <string>imacron.glif</string>
     <key>imacron.ital</key>
     <string>imacron.ital.glif</string>
+    <key>iogonek.ital</key>
+    <string>iogonek.ital.glif</string>
     <key>istroke</key>
     <string>istroke.glif</string>
     <key>istroke.ital</key>

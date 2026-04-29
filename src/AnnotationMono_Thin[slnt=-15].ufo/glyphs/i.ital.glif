@@ -2,8 +2,6 @@
 <glyph name="i.ital" format="2">
   <advance width="500"/>
   <anchor x="360.7695154586736" y="600" name="top"/>
-  <anchor x="250" y="0" name="cedilla"/>
-  <anchor x="250" y="0" name="ogonek"/>
   <anchor x="200" y="0" name="bottom"/>
   <outline>
     <contour>

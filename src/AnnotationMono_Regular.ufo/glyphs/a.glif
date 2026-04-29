@@ -4,7 +4,7 @@
   <unicode hex="0061"/>
   <anchor x="233" y="400" name="top"/>
   <anchor x="189" y="-8" name="cedilla"/>
-  <anchor x="411" y="-3" name="ogonek"/>
+  <anchor x="434" y="-5" name="ogonek"/>
   <anchor x="251" y="0" name="bottom"/>
   <outline>
     <contour>
@@ -68,15 +68,4 @@
       <point x="400" y="414"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Bold</key>
-        <string>weight=700</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

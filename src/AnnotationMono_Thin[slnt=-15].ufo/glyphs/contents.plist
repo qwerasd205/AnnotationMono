@@ -816,6 +816,8 @@
     <string>imacron.glif</string>
     <key>imacron.ital</key>
     <string>imacron.ital.glif</string>
+    <key>iogonek.ital</key>
+    <string>iogonek.ital.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>itilde.ital</key>
